@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="500" viewBox="0 0 1200 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="長方形_7" data-name="長方形 7" class="cls-1" width="1200" height="500" rx="50" transform="translate(183 200)"/>
+    </clipPath>
+  </defs>
+  <g id="mv" class="cls-2" transform="translate(-183 -200)">
+    <image id="AdobeStock_541619912" width="1200" height="800" transform="translate(183 71)" xlink:href="mv-image.jpg"/>
+  </g>
+</svg>
