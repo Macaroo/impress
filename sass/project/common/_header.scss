@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@use '../../global' as *;
+
+// ================================================================
+// header
+// ================================================================
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+.header__inner {
+    @include mq(sp) {
+        max-width: 100%;
+    }
+    @include mq(md) {
+        padding-right: min(toVw(89), 89px);
+    }
+}
+
+.header__content-container {
+    position: relative;
+}
+
+// ----------------------------------------
+// ヘッダーロゴ
+// ----------------------------------------
+.header__logo {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 151px;
+}
+
+
