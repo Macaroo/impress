@@ -29,9 +29,17 @@
 // ----------------------------------------
 .header__logo {
     position: absolute;
-    top: 32px;
-    left: 0;
-    width: 151px;
+    @include mq(md) {
+        margin-top: 15px;
+        margin-left: 50px;
+        box-sizing: border-box;
+    }
+
+    @include mq(sp) {
+        top: 15px;
+        left: 25px;
+        width: 180px;
+    }
 }
 
 

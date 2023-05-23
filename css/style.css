@@ -165,7 +165,18 @@ select::-ms-expand {
 
 .header__logo {
   position: absolute;
-  top: 32px;
-  left: 0;
-  width: 151px;
+}
+@media screen and (min-width: 768px) {
+  .header__logo {
+    margin-top: 15px;
+    margin-left: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 375px) {
+  .header__logo {
+    top: 15px;
+    left: 25px;
+    width: 180px;
+  }
 }/*# sourceMappingURL=style.css.map */
