@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@use '../../global' as *;
+
+// ================================================================
+// btn
+// ================================================================
+.btn {
+    top: 36px;
+    left: 1730px;
+    width: 140px;
+    height: 50px;
+
+    background: $main-color 0% 0% no-repeat padding-box;
+    border: 1px solid $main-color;
+    border-radius: 50px;
+    opacity: 1;
+}

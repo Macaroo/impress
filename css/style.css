@@ -179,4 +179,15 @@ select::-ms-expand {
     left: 25px;
     width: 180px;
   }
+}
+
+.btn {
+  top: 36px;
+  left: 1730px;
+  width: 140px;
+  height: 50px;
+  background: #F6DC4F 0% 0% no-repeat padding-box;
+  border: 1px solid #F6DC4F;
+  border-radius: 50px;
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
