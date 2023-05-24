@@ -19,6 +19,16 @@
 // フッターロゴ
 // ================================================================
 .footer__logo {
-    width: 180px;
+    position: relative;
+    @include mq(md) {
+        margin-top: 15px;
+        margin-left: 50px;
+        box-sizing: border-box;
+    }
+
+    @include mq(sp) {
+        left: 90px;
+        width: 180px;
+    }
 }
 

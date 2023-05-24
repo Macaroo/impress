@@ -245,6 +245,28 @@ select::-ms-expand {
   transform: rotate(45deg);
 }
 
+.drawer {
+  background-color: #F6DC4F;
+}
+
+.drawer__logo {
+  position: absolute;
+}
+@media screen and (min-width: 768px) {
+  .drawer__logo {
+    margin-top: 15px;
+    margin-left: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 375px) {
+  .drawer__logo {
+    top: 15px;
+    left: 25px;
+    width: 180px;
+  }
+}
+
 .footer {
   text-align: center;
   padding-top: 50px;
@@ -258,7 +280,20 @@ select::-ms-expand {
 }
 
 .footer__logo {
-  width: 180px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    margin-top: 15px;
+    margin-left: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 375px) {
+  .footer__logo {
+    left: 90px;
+    width: 180px;
+  }
 }
 
 .btn {
