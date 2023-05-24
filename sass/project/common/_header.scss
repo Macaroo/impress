@@ -57,6 +57,11 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
+    @include mq(md) {
+        .is-active {
+            display: none;
+        }
+    }
 }
 
 .hamburger__circle {
