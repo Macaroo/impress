@@ -5,9 +5,9 @@
 // footer
 // ================================================================
 .footer {
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     @include mq(md) {
     padding-top: 120px;
@@ -19,6 +19,6 @@
 // フッターロゴ
 // ================================================================
 .footer__logo {
-    align-items: center;
+    width: 180px;
 }
 
