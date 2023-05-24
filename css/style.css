@@ -181,6 +181,45 @@ select::-ms-expand {
   }
 }
 
+.hamburger {
+  position: fixed;
+  z-index: 9999;
+  top: 20px;
+  left: 320px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #F6DC4F;
+}
+
+.hamburger span {
+  position: absolute;
+  left: 7px;
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.hamburger span:first-child {
+  top: 10px;
+}
+
+.hamburger span:nth-child(2) {
+  top: 15px;
+  transition: opacity 0.3s;
+}
+
+.hamburger span:nth-child(3) {
+  top: 20px;
+}
+
 .footer {
   position: relative;
   padding-top: 40px;
