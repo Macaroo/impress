@@ -191,7 +191,7 @@ select::-ms-expand {
   cursor: pointer;
 }
 
-.circle {
+.hamburger__circle {
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -218,6 +218,26 @@ select::-ms-expand {
 
 .hamburger span:nth-child(3) {
   top: 20px;
+}
+
+.hamburger .is-active {
+  width: 21px;
+  height: 21px;
+  margin: 1px 23px 2px 38px;
+}
+
+.hamburger.is-active span:first-child {
+  top: 15px;
+  transform: rotate(-45deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+  display: none;
+}
+
+.hamburger.is-active span:nth-child(3) {
+  top: 15px;
+  transform: rotate(45deg);
 }
 
 .footer {
