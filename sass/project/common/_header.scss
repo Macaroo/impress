@@ -45,6 +45,22 @@
 // ----------------------------------------
 // ヘッダーナビ
 // ----------------------------------------
+.header__nav {
+    display: inline-block;
+    position: absolute;
+    top: 37px;
+    left: 1220px;
+    bottom: 30px;
+}
+
+.header__nav-items {
+    display: flex;
+    margin-right: 95px;
+}
+
+.header__nav-item {
+    margin-right: 45px;
+}
 
 // ----------------------------------------
 // ハンバーガー
@@ -58,11 +74,10 @@
     height: 25px;
     cursor: pointer;
     @include mq(md) {
-        .is-active {
-            display: none;
-        }
+        display: none;
     }
 }
+
 
 .hamburger__circle {
     width: 35px;

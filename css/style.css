@@ -181,6 +181,23 @@ select::-ms-expand {
   }
 }
 
+.header__nav {
+  display: inline-block;
+  position: absolute;
+  top: 37px;
+  left: 1220px;
+  bottom: 30px;
+}
+
+.header__nav-items {
+  display: flex;
+  margin-right: 95px;
+}
+
+.header__nav-item {
+  margin-right: 45px;
+}
+
 .hamburger {
   position: fixed;
   z-index: 9999;
@@ -191,7 +208,7 @@ select::-ms-expand {
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  .hamburger .is-active {
+  .hamburger {
     display: none;
   }
 }
