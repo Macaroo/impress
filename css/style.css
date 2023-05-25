@@ -185,13 +185,8 @@ select::-ms-expand {
   display: inline-block;
   position: absolute;
   top: 37px;
-  left: 1220px;
+  left: 1174px;
   bottom: 30px;
-}
-@media screen and (min-width: 375px) {
-  .header__nav {
-    display: none;
-  }
 }
 
 .header__nav-items {

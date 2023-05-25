@@ -49,11 +49,8 @@
     display: inline-block;
     position: absolute;
     top: 37px;
-    left: 1220px;
+    left: 1174px;
     bottom: 30px;
-    @include mq(sp) {
-        display: none;
-    }
 }
 
 .header__nav-items {
