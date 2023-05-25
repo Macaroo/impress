@@ -2,12 +2,14 @@
 @use '../../global' as *;
 
 // ================================================================
-// footer
+// フッター
 // ================================================================
 .footer {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 376px;
+    height: 653px;
 
     @include mq(md) {
     padding-top: 120px;
@@ -30,5 +32,21 @@
         left: 90px;
         width: 180px;
     }
+}
+
+// ================================================================
+// フッターナビ
+// ================================================================
+.footer__nav {
+    position: relative;
+    top: 43px;
+}
+
+.footer__nav-items {
+    display: block;
+}
+
+.footer__nav-item {
+    margin-bottom: 44px;
 }
 

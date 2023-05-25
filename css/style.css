@@ -305,6 +305,8 @@ select::-ms-expand {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 376px;
+  height: 653px;
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -328,6 +330,19 @@ select::-ms-expand {
     left: 90px;
     width: 180px;
   }
+}
+
+.footer__nav {
+  position: relative;
+  top: 43px;
+}
+
+.footer__nav-items {
+  display: block;
+}
+
+.footer__nav-item {
+  margin-bottom: 44px;
 }
 
 .btn {
