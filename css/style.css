@@ -341,11 +341,10 @@ select::-ms-expand {
 }
 
 .btn {
-  top: 36px;
-  left: 1730px;
+  display: inline-block;
   width: 140px;
   height: 50px;
-  background: #F6DC4F 0% 0% no-repeat padding-box;
+  background: #F6DC4F;
   border: 1px solid #F6DC4F;
   border-radius: 50px;
   opacity: 1;

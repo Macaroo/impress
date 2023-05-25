@@ -5,12 +5,10 @@
 // btn
 // ================================================================
 .btn {
-    top: 36px;
-    left: 1730px;
+    display: inline-block;
     width: 140px;
     height: 50px;
-
-    background: $main-color 0% 0% no-repeat padding-box;
+    background: $main-color;
     border: 1px solid $main-color;
     border-radius: 50px;
     opacity: 1;
