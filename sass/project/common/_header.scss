@@ -108,10 +108,9 @@
     top: 20px;
 }
 
-.hamburger .is-active {
+.hamburger.is-active {
     width: 21px;
     height: 21px;
-    margin: 1px 23px 2px 38px;
 }
 
 .hamburger.is-active span:first-child {
@@ -165,5 +164,6 @@
 }
 
 .drawer-nav__link {
+    color: $white;
     margin-bottom: 44px;
 }
