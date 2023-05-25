@@ -188,6 +188,11 @@ select::-ms-expand {
   left: 1220px;
   bottom: 30px;
 }
+@media screen and (min-width: 375px) {
+  .header__nav {
+    display: none;
+  }
+}
 
 .header__nav-items {
   display: flex;
@@ -264,6 +269,8 @@ select::-ms-expand {
 
 .drawer {
   background-color: #F6DC4F;
+  width: 375px;
+  height: 570px;
 }
 
 .drawer__logo {
@@ -282,6 +289,16 @@ select::-ms-expand {
     left: 25px;
     width: 180px;
   }
+}
+
+.drawer-nav__items {
+  text-align: center;
+  position: relative;
+  top: 133px;
+}
+
+.drawer-nav__link {
+  margin-bottom: 44px;
 }
 
 .footer {

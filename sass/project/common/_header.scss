@@ -51,6 +51,9 @@
     top: 37px;
     left: 1220px;
     bottom: 30px;
+    @include mq(sp) {
+        display: none;
+    }
 }
 
 .header__nav-items {
@@ -133,6 +136,8 @@
 // ----------------------------------------
 .drawer {
     background-color: $main-color;
+    width: 375px;
+    height: 570px;
 }
 
 // ----------------------------------------
@@ -151,4 +156,17 @@
         left: 25px;
         width: 180px;
     }
+}
+
+// ----------------------------------------
+// ドロワーナビ
+// ----------------------------------------
+.drawer-nav__items {
+    text-align: center;
+    position: relative;
+    top: 133px;
+}
+
+.drawer-nav__link {
+    margin-bottom: 44px;
 }
