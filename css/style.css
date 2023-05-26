@@ -196,6 +196,7 @@ select::-ms-expand {
 
 .header__nav-item {
   list-style: none;
+  color: #000;
   margin-right: 45px;
 }
 
