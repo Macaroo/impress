@@ -365,13 +365,30 @@ select::-ms-expand {
 }
 
 .scroll span {
-  position: absolute;
-  top: 529px;
-  left: 318px;
-  width: 8px;
-  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 1;
+  position: relative;
+  width: 2px;
+  height: 35px;
   background-color: #fff;
   animation: scroll-down 2s ease-in infinite;
+}
+
+.scroll span::before {
+  content: "";
+  width: 19px;
+  height: 35px;
+  border: 0.1em solid currentColor;
+  border-top: 0;
+  border-right: 0;
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+  position: absolute;
+  left: 50%;
+  bottom: -0.05px;
+  box-sizing: border-box;
 }
 
 @keyframes scroll {
