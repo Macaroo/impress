@@ -195,6 +195,7 @@ select::-ms-expand {
 }
 
 .header__nav-item {
+  list-style: none;
   margin-right: 45px;
 }
 
@@ -292,6 +293,7 @@ select::-ms-expand {
 }
 
 .drawer-nav__link {
+  list-style: none;
   color: #fff;
   margin-bottom: 44px;
 }
