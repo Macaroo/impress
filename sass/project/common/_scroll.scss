@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@use '../../global' as *;
+
+// ================================================================
+// スクロール
+// ================================================================
+.scroll {
+    position: absolute;
+    top: 504px;
+    left: 290px;
+    width: 65px;
+    height: 65px;
+    background-color: $main-color;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.scroll span {
+    position: absolute;
+    top: 529px;
+    left: 318px;
+    width: 8px;
+    height: 15px;
+    background-color: $white;
+    animation: scroll-down 2s ease-in infinite;
+}
+
+@keyframes scroll {
+    0% {
+    transform: translateY(-100%);
+    }
+    33% {
+    transform: translateY(0);
+    }
+    66% {
+    transform: translateY(200%);
+    }
+    100% {
+    transform: translateY(200%);
+    }
+}
