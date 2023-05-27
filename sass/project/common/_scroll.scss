@@ -22,24 +22,31 @@
     line-height: 1;
     position: relative;
     width: 2px;
-    height: 35px;
+    height: 15px;
     background-color: $white;
     animation: scroll-down 2s ease-in infinite;
 }
 
 .scroll span::before {
     content: '';
-    width: 19px;
-    height: 35px;
-    border: 0.1em solid currentColor;
+    width: 10px;
+    height: 10px;
+    border: 2px solid $white;
     border-top: 0;
     border-right: 0;
     transform: rotate(-45deg);
     transform-origin: bottom left;
     position: absolute;
     left: 50%;
-    bottom: -0.05px;
+    bottom: -3px;
     box-sizing: border-box;
+}
+
+.allow-down {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 30px;
 }
 
 @keyframes scroll {
