@@ -6,4 +6,14 @@ $(function () {
     $(".js-drawer").fadeToggle();
 });
 
+//スライダー
+const swiper = new Swiper('.swiper', {
+    slidesPerView: "auto",
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    speed: 1000,
+});
+
 });
