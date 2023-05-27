@@ -9,3 +9,48 @@
     width: 375px;
     height: 570px;
 }
+
+.top-fv__cover {
+    position: relative;
+    top: 125px;
+    left: 0px;
+    width: 355px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+.top-fv__main {
+    border-radius: 50px;
+}
+
+.top-fv__text {
+    font-family: $second-font;
+    font-weight: $regular;
+    color: $main-color;
+    font-size: 85px;
+    position: absolute;
+    top: 335px;
+    left: 20px;
+    width: 265px;
+    height: 85px;
+}
+
+.top-fv__sub-text {
+    font-family: $second-font;
+    font-weight: $regular;
+    color: $main-color;
+    font-size: 18px;
+    position: absolute;
+    top: 450px;
+    left: 165px;
+    width: 200px;
+    height: 18px;
+}
+
+.top-fv__sub-image {
+    position: absolute;
+    top: 390px;
+    left: 5px;
+    width: 250px;
+    height: 35px;
+}
