@@ -141,11 +141,13 @@ select::-ms-expand {
 }
 
 .header {
+  background: #fff;
   position: fixed;
+  z-index: 1000;
   top: 0;
   left: 0;
-  z-index: 10;
-  width: 100%;
+  width: 375px;
+  height: 70px;
 }
 
 @media screen and (min-width: 375px) {
@@ -411,4 +413,9 @@ select::-ms-expand {
   100% {
     transform: translateY(200%);
   }
+}
+.top-fv {
+  background-image: url(../images/top_sp/top_fv-sp.png);
+  width: 375px;
+  height: 570px;
 }/*# sourceMappingURL=style.css.map */
