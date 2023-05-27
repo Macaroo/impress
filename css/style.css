@@ -439,8 +439,8 @@ select::-ms-expand {
   color: #F6DC4F;
   font-size: 85px;
   position: absolute;
-  top: 335px;
-  left: 20px;
+  top: 210px;
+  left: 10px;
   width: 265px;
   height: 85px;
 }
@@ -451,16 +451,16 @@ select::-ms-expand {
   color: #F6DC4F;
   font-size: 18px;
   position: absolute;
-  top: 450px;
-  left: 165px;
+  top: 320px;
+  left: 160px;
   width: 200px;
   height: 18px;
 }
 
 .top-fv__sub-image {
   position: absolute;
-  top: 390px;
+  top: 260px;
   left: 5px;
-  width: 250px;
+  width: 265px;
   height: 35px;
 }/*# sourceMappingURL=style.css.map */
