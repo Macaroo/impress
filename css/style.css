@@ -197,9 +197,11 @@ select::-ms-expand {
 }
 
 .header__nav-item {
-  list-style: none;
-  color: #000;
   margin-right: 45px;
+}
+
+.header__nav-link {
+  color: #000;
 }
 
 .hamburger {
@@ -289,24 +291,31 @@ select::-ms-expand {
   }
 }
 
-.drawer-nav__items {
+.drawer__nav-items {
   text-align: center;
   position: relative;
   top: 133px;
 }
 
-.drawer-nav__link {
-  list-style: none;
+.drawer__nav-item {
   color: #fff;
   margin-bottom: 44px;
 }
 
+.drawer__nav-link {
+  color: #fff;
+}
+
 .footer {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 376px;
-  height: 653px;
+}
+@media screen and (min-width: 375px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 376px;
+    height: 653px;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -332,9 +341,11 @@ select::-ms-expand {
   }
 }
 
-.footer__nav {
-  position: relative;
-  top: 43px;
+@media screen and (min-width: 375px) {
+  .footer__nav {
+    position: relative;
+    top: 43px;
+  }
 }
 
 .footer__nav-items {
@@ -345,7 +356,11 @@ select::-ms-expand {
   margin-bottom: 44px;
 }
 
-.btn {
+.footer__nav-link {
+  color: #000;
+}
+
+.footer__contact-button-wrapper {
   display: inline-block;
   width: 140px;
   height: 50px;
