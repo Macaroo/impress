@@ -54,12 +54,13 @@
     margin-bottom: 44px;
 }
 
+.footer__nav-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer__nav-link {
     font-size: 15px;
     color: $black;
-}
-
-.footer__nav-text {
-    margin: 19px 48px 16px 41px;
 }
 

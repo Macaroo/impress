@@ -361,13 +361,14 @@ select::-ms-expand {
   margin-bottom: 44px;
 }
 
+.footer__nav-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__nav-link {
   font-size: 15px;
   color: #000;
-}
-
-.footer__nav-text {
-  margin: 19px 48px 16px 41px;
 }
 
 .footer__contact-button-white_sp {
@@ -378,6 +379,7 @@ select::-ms-expand {
   border: 1px solid #BDBDBD;
   border-radius: 50px;
   opacity: 1;
+  margin-left: 40px;
 }
 
 .footer__contact-button-yellow_sp {
@@ -388,6 +390,7 @@ select::-ms-expand {
   border: 1px solid #F6DC4F;
   border-radius: 50px;
   opacity: 1;
+  margin-right: 40px;
 }
 
 .scroll {
