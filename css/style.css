@@ -272,6 +272,11 @@ select::-ms-expand {
   width: 375px;
   height: 570px;
 }
+@media screen and (min-width: 768px) {
+  .drawer {
+    display: none;
+  }
+}
 
 .drawer__logo {
   position: absolute;
@@ -357,10 +362,25 @@ select::-ms-expand {
 }
 
 .footer__nav-link {
+  font-size: 15px;
   color: #000;
 }
 
-.footer__contact-button-wrapper {
+.footer__nav-text {
+  margin: 19px 48px 16px 41px;
+}
+
+.footer__contact-button-white_sp {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #BDBDBD;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+.footer__contact-button-yellow_sp {
   display: inline-block;
   width: 140px;
   height: 50px;
@@ -441,7 +461,6 @@ select::-ms-expand {
   left: 0px;
   width: 355px;
   height: 250px;
-  border-radius: 50px;
 }
 
 .top-fv__main {

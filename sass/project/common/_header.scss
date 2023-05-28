@@ -140,6 +140,9 @@
     background-color: $main-color;
     width: 375px;
     height: 570px;
+    @include mq(md) {
+        display: none;
+    }
 }
 
 // ----------------------------------------
