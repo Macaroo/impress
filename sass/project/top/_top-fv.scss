@@ -22,13 +22,16 @@
     border-radius: 50px;
 }
 
+.top-fv__inner {
+}
+
 .top-fv__text {
     font-family: $second-font;
     font-weight: $regular;
     color: $main-color;
     font-size: 85px;
     position: absolute;
-    top: 210px;
+    top: 335px;
     left: 10px;
     width: 265px;
     height: 85px;
@@ -40,16 +43,16 @@
     color: $main-color;
     font-size: 18px;
     position: absolute;
-    top: 320px;
+    top: 445px;
     left: 160px;
-    width: 200px;
+    width: 195px;
     height: 18px;
 }
 
 .top-fv__sub-image {
     position: absolute;
-    top: 260px;
-    left: 5px;
+    top: 385px;
+    left: 1px;
     width: 265px;
     height: 35px;
 }
