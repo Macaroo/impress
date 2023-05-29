@@ -4,6 +4,30 @@
 // ================================================================
 // btn
 // ================================================================
+.drawer__contact-button-white_sp {
+    display: inline-block;
+    top: 366px;
+    left: 30px;
+    width: 315px;
+    height: 50px;
+    background: $white;
+    border: 1px solid $white;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.drawer__contact-button-yellow_sp {
+    display: inline-block;
+    top: 456px;
+    left: 30px;
+    width: 315px;
+    height: 50px;
+    background: $main-color;
+    border: 1px solid $white;
+    border-radius: 50px;
+    opacity: 1;
+}
+
 .footer__contact-button-white_sp {
     display: inline-block;
     width: 140px;

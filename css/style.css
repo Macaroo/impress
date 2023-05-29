@@ -311,6 +311,10 @@ select::-ms-expand {
   color: #fff;
 }
 
+.drawer__contact-button-white_sp .drawer__nav-link {
+  color: #000;
+}
+
 .footer {
   text-align: center;
 }
@@ -369,6 +373,30 @@ select::-ms-expand {
 .footer__nav-link {
   font-size: 15px;
   color: #000;
+}
+
+.drawer__contact-button-white_sp {
+  display: inline-block;
+  top: 366px;
+  left: 30px;
+  width: 315px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+.drawer__contact-button-yellow_sp {
+  display: inline-block;
+  top: 456px;
+  left: 30px;
+  width: 315px;
+  height: 50px;
+  background: #F6DC4F;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  opacity: 1;
 }
 
 .footer__contact-button-white_sp {
