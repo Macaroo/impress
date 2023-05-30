@@ -459,6 +459,20 @@ select::-ms-expand {
   border-radius: 50px;
   overflow: hidden;
 }
+@keyframes scroll {
+  0% {
+    transform: translateY(-100%);
+  }
+  33% {
+    transform: translateY(0);
+  }
+  66% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(200%);
+  }
+}
 
 .scroll span {
   display: inline-block;
@@ -494,20 +508,6 @@ select::-ms-expand {
   left: 30px;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateY(-100%);
-  }
-  33% {
-    transform: translateY(0);
-  }
-  66% {
-    transform: translateY(200%);
-  }
-  100% {
-    transform: translateY(200%);
-  }
-}
 .top-fv {
   background-image: url(../images/top_sp/top-fv_sp.png);
   width: 375px;
@@ -522,8 +522,8 @@ select::-ms-expand {
   height: 250px;
 }
 
-.top-fv__main {
-  border-radius: 50px;
+.top-fv__main img {
+  border-radius: 30px;
 }
 
 .top-fv__text {

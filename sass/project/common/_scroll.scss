@@ -13,6 +13,20 @@
     background-color: $main-color;
     border-radius: 50px;
     overflow: hidden;
+    @keyframes scroll {
+        0% {
+        transform: translateY(-100%);
+        }
+        33% {
+        transform: translateY(0);
+        }
+        66% {
+        transform: translateY(200%);
+        }
+        100% {
+        transform: translateY(200%);
+        }
+    }
 }
 
 .scroll span {
@@ -47,19 +61,4 @@
     top: 15px;
     bottom: 15px;
     left: 30px;
-}
-
-@keyframes scroll {
-    0% {
-    transform: translateY(-100%);
-    }
-    33% {
-    transform: translateY(0);
-    }
-    66% {
-    transform: translateY(200%);
-    }
-    100% {
-    transform: translateY(200%);
-    }
 }
