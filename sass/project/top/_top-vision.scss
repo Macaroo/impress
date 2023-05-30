@@ -4,3 +4,43 @@
 // ================================================================
 // top-vision
 // ================================================================
+.top-vision {
+}
+
+.top-vision__cover{
+    background: transparent linear-gradient(112deg, #F6DC4F 0%, #FBE87F 100%);
+    width: 375px;
+    height: 160px;
+
+    img{
+        position: absolute;
+        top: 1140px;
+        left: 20px;
+        width: 355px;
+        height: 180px;
+    }
+}
+
+.top-vision__title {
+    color: $main-color;
+    font-family: $second-font;
+    padding-top: 114px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.top-vision__text {
+    font-family: $base-font;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.top-vision__sub {
+    font-family: $base-font;
+    width: 328px;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.55;
+}

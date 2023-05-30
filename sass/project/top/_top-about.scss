@@ -18,8 +18,18 @@
     font-size: 13px;
 }
 
-.top-about__main {
+.top-about__text {
     font-family: $base-font;
     padding-top: 10px;
     padding-left: 20px;
+}
+
+.top-about__sub {
+    font-family: $base-font;
+    width: 328px;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.55;
 }
