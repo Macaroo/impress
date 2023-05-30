@@ -375,6 +375,10 @@ select::-ms-expand {
   color: #000;
 }
 
+.footer__contact-button-yellow_sp .footer__nav-text {
+  color: #fff;
+}
+
 .sns__inner {
   display: flex;
   margin: 40px 113px 167px 113px;
