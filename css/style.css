@@ -556,4 +556,24 @@ select::-ms-expand {
   left: 1px;
   width: 265px;
   height: 35px;
+}
+
+.top-about {
+  background-image: url(../images/top_sp/top-about_sp.png);
+  width: 375px;
+  height: 523px;
+}
+
+.top-about__title {
+  color: #F6DC4F;
+  font-family: "'Lexend', sans-serif";
+  padding-top: 53px;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+.top-about__main {
+  font-family: "'Noto Sans JP', sans-serif";
+  padding-top: 10px;
+  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */

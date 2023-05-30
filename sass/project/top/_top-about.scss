@@ -4,3 +4,22 @@
 // ================================================================
 // top-about
 // ================================================================
+.top-about {
+    background-image: url(../images/top_sp/top-about_sp.png);
+    width: 375px;
+    height: 523px;
+}
+
+.top-about__title {
+    color: $main-color;
+    font-family: $second-font;
+    padding-top: 53px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.top-about__main {
+    font-family: $base-font;
+    padding-top: 10px;
+    padding-left: 20px;
+}
