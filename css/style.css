@@ -583,6 +583,8 @@ select::-ms-expand {
 
 .top-about {
   background-image: url(../images/top_sp/top-about_sp.png);
+  background-color: #F1F1F1;
+  background-position: center;
   width: 375px;
   height: 523px;
 }
