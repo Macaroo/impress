@@ -68,7 +68,8 @@
 
 }
 
-.top-vision__scroll span {
+.top-vision__scroll span,
+.top-service__scroll span {
     position: absolute;
     top: 1694px;
     left: 290px;
@@ -79,7 +80,8 @@
     overflow: hidden;
 }
 
-.top-vision__scroll-text {
+.top-vision__scroll-text,
+.top-service__scroll-text {
     padding-top: 80px;
     padding-left: 132px;
     padding-bottom: 62px;

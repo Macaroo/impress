@@ -21,11 +21,22 @@
     transform: rotate(90deg);
 }
 
+.top-service__circle {
+    background: $white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1839px;
+    left: 20px;
+    width: 335px;
+    height: 338px;
+}
+
 .top-service__text {
     text-align: center;
     font-size: 41px;
     line-height: 1.35;
     width: 335px;
+    padding-top: 80px;
 }
 
 .top-service__sub-image {
@@ -34,4 +45,11 @@
     left: 156px;
     width: 185px;
     height: 35px;
+}
+
+.top-service__sub {
+    padding-top: 310px;
+    padding-left: 20px;
+    width: 334px;
+    line-height: 1.75;
 }
