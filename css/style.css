@@ -650,6 +650,12 @@ select::-ms-expand {
   line-height: 1.55;
 }
 
+.top-service {
+  background-color: #F1F1F1;
+  width: 375px;
+  height: 726px;
+}
+
 .top-service__title {
   color: #BDBDBD;
   font-family: "'Lexend', sans-serif";
@@ -659,4 +665,19 @@ select::-ms-expand {
   width: 175px;
   height: 57px;
   transform: rotate(90deg);
+}
+
+.top-service__text {
+  text-align: center;
+  font-size: 41px;
+  line-height: 1.35;
+  width: 335px;
+}
+
+.top-service__sub-image {
+  position: absolute;
+  top: 2105px;
+  left: 156px;
+  width: 185px;
+  height: 35px;
 }/*# sourceMappingURL=style.css.map */
