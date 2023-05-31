@@ -400,11 +400,12 @@ select::-ms-expand {
 }
 
 .footer__copyright::before {
+  content: "";
   display: block;
   align-items: center;
   width: 5276px;
-  height: 20px;
-  border: 1px solid #BDBDBD;
+  height: 1px;
+  color: #BDBDBD;
 }
 
 .drawer__contact-button-white_sp {
@@ -718,31 +719,35 @@ select::-ms-expand {
   height: 925px;
 }
 
+.top-news__inner {
+  background-color: #fff;
+  position: absolute;
+  top: 2575px;
+  left: 20px;
+  width: 335px;
+  height: 825px;
+  border-radius: 30px;
+}
+
 .top-news__title {
   color: #F6DC4F;
   font-family: "'Lexend', sans-serif";
-  padding-top: 100px;
-  padding-left: 30px;
+  padding-top: 63px;
+  padding-left: 10px;
   font-size: 13px;
 }
 
 .top-news__link {
   display: flex;
   padding-top: 20px;
+  padding-bottom: 30px;
   text-align: center;
-}
-
-.top-news__link::after {
-  padding-top: 30px;
-  width: 315px;
-  height: 0px;
-  border: 1px solid #C4C3BF;
 }
 
 .top-news__btn-1 {
   position: absolute;
-  top: 2671px;
-  left: 30px;
+  top: 95px;
+  left: 10px;
   width: 100px;
   height: 40px;
   background: #F6DC4F;
@@ -753,8 +758,8 @@ select::-ms-expand {
 
 .top-news__btn-2 {
   position: absolute;
-  top: 2671px;
-  left: 138px;
+  top: 95px;
+  left: 120px;
   width: 100px;
   height: 40px;
   background: #fff;
@@ -766,8 +771,8 @@ select::-ms-expand {
 
 .top-news__btn-3 {
   position: absolute;
-  top: 2671px;
-  left: 245px;
+  top: 95px;
+  left: 225px;
   width: 100px;
   height: 40px;
   background: #fff;
@@ -775,4 +780,14 @@ select::-ms-expand {
   color: #000;
   border-radius: 50px;
   text-align: center;
+}
+
+.top-news__link::after {
+  content: "";
+  position: absolute;
+  top: 160px;
+  left: 10px;
+  width: 315px;
+  height: 1px;
+  color: #C4C3BF;
 }/*# sourceMappingURL=style.css.map */
