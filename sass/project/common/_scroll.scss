@@ -63,3 +63,26 @@
     bottom: 15px;
     left: 30px;
 }
+
+.top-vision__scroll {
+
+}
+
+.top-vision__scroll span {
+    position: absolute;
+    top: 1694px;
+    left: 290px;
+    width: 65px;
+    height: 65px;
+    background-color: $main-color;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.top-vision__scroll-text {
+    padding-top: 80px;
+    padding-left: 132px;
+    padding-bottom: 62px;
+    font-size: 16px;
+    font-family: $second-font;
+}

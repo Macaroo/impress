@@ -512,6 +512,25 @@ select::-ms-expand {
   left: 30px;
 }
 
+.top-vision__scroll span {
+  position: absolute;
+  top: 1694px;
+  left: 290px;
+  width: 65px;
+  height: 65px;
+  background-color: #F6DC4F;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.top-vision__scroll-text {
+  padding-top: 80px;
+  padding-left: 132px;
+  padding-bottom: 62px;
+  font-size: 16px;
+  font-family: "'Lexend', sans-serif";
+}
+
 .top-fv {
   background-image: url(../images/top_sp/top-fv_sp.png);
   width: 375px;
@@ -627,4 +646,12 @@ select::-ms-expand {
   font-size: 16px;
   text-align: left;
   line-height: 1.55;
+}
+
+.top-service__title {
+  color: #BDBDBD;
+  font-family: "'Lexend', sans-serif";
+  font-size: 13px;
+  width: 13px;
+  height: 57px;
 }/*# sourceMappingURL=style.css.map */
