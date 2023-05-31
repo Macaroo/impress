@@ -512,8 +512,7 @@ select::-ms-expand {
   left: 30px;
 }
 
-.top-vision__scroll span,
-.top-service__scroll span {
+.top-vision__scroll span {
   position: absolute;
   top: 1694px;
   left: 290px;
@@ -531,6 +530,17 @@ select::-ms-expand {
   padding-bottom: 62px;
   font-size: 16px;
   font-family: "'Lexend', sans-serif";
+}
+
+.top-service__scroll span {
+  position: absolute;
+  top: 2410px;
+  left: 290px;
+  width: 65px;
+  height: 65px;
+  background-color: #F6DC4F;
+  border-radius: 50px;
+  overflow: hidden;
 }
 
 .top-fv {
