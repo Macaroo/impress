@@ -463,10 +463,12 @@ select::-ms-expand {
   background-color: #F6DC4F;
   color: #fff;
   position: relative;
+  display: block;
   width: 102px;
   height: 30px;
   font-size: 14px;
   border-radius: 50px;
+  text-align: center;
 }
 
 .scroll {
@@ -826,6 +828,10 @@ select::-ms-expand {
   width: 315px;
   height: 1px;
   color: #C4C3BF;
+}
+
+.top-news__date {
+  color: #BDBDBD;
 }
 
 .top-recruit {

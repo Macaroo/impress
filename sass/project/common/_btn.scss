@@ -56,8 +56,10 @@
     background-color: $main-color;
     color: $white;
     position: relative;
+    display: block;
     width: 102px;
     height: 30px;
     font-size: 14px;
     border-radius: 50px;
+    text-align: center;
 }
