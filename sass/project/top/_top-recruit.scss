@@ -4,3 +4,71 @@
 // ================================================================
 // top-recruit
 // ================================================================
+.top-recruit {
+    background-color: $background-color;
+    width: 375px;
+    height: 1300px;
+}
+
+.top-recruit__circle {
+    background-color: $main-color;
+    border-radius: 50%;
+    position: absolute;
+    top: 3480px;
+    left: 38px;
+    width: 300px;
+    height: 300px;
+}
+
+.top-recruit__text {
+    text-align: center;
+    width: 173px;
+    padding-top: 115px;
+    padding-left: 55px;
+    line-height: 1;
+    color: $white;
+    font-family: $second-font;
+    font-size: 45px;
+}
+
+.top-recruit__title {
+    color: $white;
+    font-family: $second-font;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-left: 55px;
+}
+
+.top-recruit__img {
+    position: absolute;
+    top: 3815px;
+    left: 20px;
+    width: 375px;
+    height: 250px;
+}
+
+.top-recruit__inner {
+    background-color: $white;
+    position: absolute;
+    top: 4105px;
+    left: 20px;
+    width: 335px;
+    height: 585px;
+    border-radius: 160px;
+}
+
+.top-recruit__main-text {
+    color: $black;
+    font-size: 20px;
+    font-family: $base-font;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.top-recruit__sub {
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 300px;
+    line-height: 1.5;
+}
+

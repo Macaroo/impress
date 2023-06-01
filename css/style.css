@@ -454,6 +454,16 @@ select::-ms-expand {
   margin-right: 40px;
 }
 
+.top-news__item-btn {
+  background-color: #F6DC4F;
+  color: #fff;
+  position: relative;
+  width: 102px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
 .scroll {
   position: absolute;
   top: 504px;
@@ -537,6 +547,27 @@ select::-ms-expand {
   position: absolute;
   top: 2410px;
   left: 290px;
+  width: 65px;
+  height: 65px;
+  background-color: #F6DC4F;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.top-recruit__scroll-text {
+  position: absolute;
+  top: 4530px;
+  left: 83px;
+  width: 224px;
+  height: 65px;
+  font-size: 16px;
+  font-family: "'Lexend', sans-serif";
+}
+
+.top-recruit__scroll span {
+  position: absolute;
+  top: 4509px;
+  left: 242px;
   width: 65px;
   height: 65px;
   background-color: #F6DC4F;
@@ -716,7 +747,7 @@ select::-ms-expand {
 .top-news {
   background-image: url(../images/top_sp/top-news_bg-sp.png);
   width: 375px;
-  height: 925px;
+  height: 900px;
 }
 
 .top-news__inner {
@@ -790,4 +821,72 @@ select::-ms-expand {
   width: 315px;
   height: 1px;
   color: #C4C3BF;
+}
+
+.top-recruit {
+  background-color: #F1F1F1;
+  width: 375px;
+  height: 1300px;
+}
+
+.top-recruit__circle {
+  background-color: #F6DC4F;
+  border-radius: 50%;
+  position: absolute;
+  top: 3480px;
+  left: 38px;
+  width: 300px;
+  height: 300px;
+}
+
+.top-recruit__text {
+  text-align: center;
+  width: 173px;
+  padding-top: 115px;
+  padding-left: 55px;
+  line-height: 1;
+  color: #fff;
+  font-family: "'Lexend', sans-serif";
+  font-size: 45px;
+}
+
+.top-recruit__title {
+  color: #fff;
+  font-family: "'Lexend', sans-serif";
+  font-size: 13px;
+  padding-top: 15px;
+  padding-left: 55px;
+}
+
+.top-recruit__img {
+  position: absolute;
+  top: 3815px;
+  left: 20px;
+  width: 375px;
+  height: 250px;
+}
+
+.top-recruit__inner {
+  background-color: #fff;
+  position: absolute;
+  top: 4105px;
+  left: 20px;
+  width: 335px;
+  height: 585px;
+  border-radius: 160px;
+}
+
+.top-recruit__main-text {
+  color: #000;
+  font-size: 20px;
+  font-family: "'Noto Sans JP', sans-serif";
+  text-align: center;
+  padding-top: 120px;
+}
+
+.top-recruit__sub {
+  padding-top: 50px;
+  padding-left: 30px;
+  width: 300px;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */

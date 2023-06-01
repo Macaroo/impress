@@ -98,3 +98,24 @@
     border-radius: 50px;
     overflow: hidden;
 }
+
+.top-recruit__scroll-text {
+    position: absolute;
+    top: 4530px;
+    left: 83px;
+    width: 224px;
+    height: 65px;
+    font-size: 16px;
+    font-family: $second-font;
+}
+
+.top-recruit__scroll span {
+    position: absolute;
+    top: 4509px;
+    left: 242px;
+    width: 65px;
+    height: 65px;
+    background-color: $main-color;
+    border-radius: 50px;
+    overflow: hidden;
+}

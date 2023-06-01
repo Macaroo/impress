@@ -51,3 +51,13 @@
     opacity: 1;
     margin-right: 40px;
 }
+
+.top-news__item-btn {
+    background-color: $main-color;
+    color: $white;
+    position: relative;
+    width: 102px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 50px;
+}
