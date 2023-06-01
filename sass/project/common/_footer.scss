@@ -51,12 +51,13 @@
 }
 
 .footer__nav-item {
-    margin-bottom: 44px;
+    margin-bottom: 35px;
 }
 
 .footer__nav-inner {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .footer__nav-link {
@@ -73,7 +74,7 @@
 // ================================================================
 .sns__inner {
     display: flex;
-    margin:  40px 113px 167px 113px;
+    margin: 5px 105px 95px 113px;
 }
 
 .sns__inner img{
@@ -91,7 +92,6 @@
 // ================================================================
 .footer__company {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .footer__copyright::before {
@@ -101,4 +101,9 @@
     width: 5276px;
     height: 1px;
     color: $accent-color;
+}
+
+.footer__copyright {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
