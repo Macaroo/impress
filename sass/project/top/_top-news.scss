@@ -84,9 +84,28 @@
 }
 
 .top-news__list {
-   
+    width: 315px;
+    height: 599px;
+    margin-bottom: 60px;
 }
 
-.top-news__date {
+.top-news__item {
+    padding-top: 25px;
+}
+
+.top-news__item-inner {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.top-news__item-date {
     color: $accent-color;
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.top-news__item-text {
+    padding-left: 20px;
+    padding-top: 15px;
 }
