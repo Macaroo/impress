@@ -79,7 +79,7 @@
     top: 160px;
     left: 10px;
     width: 315px;
-    height: 1px;
+    height: 2px;
     color: $line-color;
 }
 
@@ -108,4 +108,12 @@
 .top-news__item-text {
     padding-left: 20px;
     padding-top: 15px;
+}
+
+.top-news__item-text::after {
+    content: "";
+    display: block;
+    width: 315px;
+    height: 2px;
+    color: $line-color;
 }
