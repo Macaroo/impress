@@ -582,18 +582,24 @@ select::-ms-expand {
   overflow: hidden;
 }
 
-.top-fv {
-  background-image: url(../images/top_sp/top-fv_sp.png);
-  width: 375px;
-  height: 570px;
+@media screen and (min-width: 375px) {
+  .top-fv {
+    background-image: url(../images/top_sp/top-fv_sp.png);
+    width: 375px;
+    height: 570px;
+  }
 }
 
 .top-fv__cover {
   position: relative;
-  top: 125px;
-  left: 0px;
-  width: 355px;
-  height: 250px;
+}
+@media screen and (min-width: 375px) {
+  .top-fv__cover {
+    top: 125px;
+    left: 0px;
+    width: 355px;
+    height: 250px;
+  }
 }
 
 .top-fv__main img {
@@ -604,32 +610,44 @@ select::-ms-expand {
   font-family: "'Lexend', sans-serif";
   font-weight: 300;
   color: #F6DC4F;
-  font-size: 85px;
   position: absolute;
-  top: 335px;
-  left: 10px;
-  width: 265px;
-  height: 85px;
+}
+@media screen and (min-width: 375px) {
+  .top-fv__text {
+    font-size: 85px;
+    top: 335px;
+    left: 10px;
+    width: 265px;
+    height: 85px;
+  }
 }
 
 .top-fv__sub-text {
   font-family: "'Lexend', sans-serif";
   font-weight: 300;
   color: #F6DC4F;
-  font-size: 18px;
   position: absolute;
-  top: 445px;
-  left: 160px;
-  width: 195px;
-  height: 18px;
+}
+@media screen and (min-width: 375px) {
+  .top-fv__sub-text {
+    font-size: 18px;
+    top: 445px;
+    left: 160px;
+    width: 195px;
+    height: 18px;
+  }
 }
 
 .top-fv__sub-image {
   position: absolute;
-  top: 385px;
-  left: 1px;
-  width: 265px;
-  height: 35px;
+}
+@media screen and (min-width: 375px) {
+  .top-fv__sub-image {
+    top: 385px;
+    left: 1px;
+    width: 265px;
+    height: 35px;
+  }
 }
 
 .top-about {
