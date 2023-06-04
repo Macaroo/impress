@@ -89,7 +89,7 @@
     margin-bottom: 60px;
 }
 
-.top-news__item {
+.top-news__item:first-child {
     padding-top: 25px;
 }
 
@@ -108,6 +108,8 @@
 .top-news__item-text {
     padding-left: 20px;
     padding-top: 15px;
+    font-size: 16px;
+    font-family: $base-font;
 }
 
 .top-news__item-text::after {
