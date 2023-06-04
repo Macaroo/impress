@@ -5,6 +5,10 @@
 // top-fv
 // ================================================================
 .top-fv {
+    @include mq(md) {
+        background-image: url(../images/top_pc/top-fv_pc.png);
+    }
+
     @include mq(sp) {
         background-image: url(../images/top_sp/top-fv_sp.png);
         width: 375px;
@@ -23,6 +27,9 @@
 }
 
 .top-fv__main img{
+    @include mq(md) {
+        
+    }
     border-radius: 30px;
 }
 
