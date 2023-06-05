@@ -6,36 +6,36 @@
 // ================================================================
 // スマホだけ非表示
 .utils-hidden-mobile {
-    @include mq(pc) {
+    @include mq(md) {
     display: inline-block !important;
     }
-    @include mq(mobile) {
+    @include mq(sp) {
     display: none !important;
     }
 }
 .utils-block-hidden-mobile {
-    @include mq(pc) {
+    @include mq(md) {
     display: block !important;
     }
-    @include mq(mobile) {
+    @include mq(sp) {
     display: none !important;
     }
 }
 
 // PCだけ非表示
 .utils-hidden-pc {
-    @include mq(pc) {
+    @include mq(md) {
     display: none !important;
     }
-    @include mq(mobile) {
+    @include mq(sp) {
     display: inline-block !important;
     }
 }
 .utils-block-hidden-pc {
-    @include mq(pc) {
+    @include mq(md) {
     display: none !important;
     }
-    @include mq(mobile) {
+    @include mq(sp) {
     display: block !important;
     }
 }

@@ -985,4 +985,57 @@ select::-ms-expand {
   padding-left: 30px;
   width: 300px;
   line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .utils-hidden-mobile {
+    display: inline-block !important;
+  }
+}
+@media screen and (min-width: 375px) {
+  .utils-hidden-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .utils-block-hidden-mobile {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 375px) {
+  .utils-block-hidden-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .utils-hidden-pc {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 375px) {
+  .utils-hidden-pc {
+    display: inline-block !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .utils-block-hidden-pc {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 375px) {
+  .utils-block-hidden-pc {
+    display: block !important;
+  }
+}
+
+.utils-hidden {
+  display: none !important;
+}
+
+.utils-visible {
+  visibility: visible !important;
+  opacity: 1 !important;
 }/*# sourceMappingURL=style.css.map */
