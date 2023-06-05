@@ -157,7 +157,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .header__inner {
-    padding-right: min(toVw(89), 89px);
+    padding-right: 89px;
   }
 }
 

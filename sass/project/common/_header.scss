@@ -18,7 +18,7 @@
         max-width: 100%;
     }
     @include mq(md) {
-        padding-right: min(toVw(89), 89px);
+        padding-right: 89px;
     }
 }
 
