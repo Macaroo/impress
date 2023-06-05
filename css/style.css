@@ -628,6 +628,14 @@ select::-ms-expand {
 .top-fv__cover {
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .top-fv__cover {
+    top: 237px;
+    left: 183px;
+    width: 1200px;
+    height: 500px;
+  }
+}
 @media screen and (min-width: 375px) {
   .top-fv__cover {
     top: 125px;
@@ -640,6 +648,7 @@ select::-ms-expand {
 .top-fv__main img {
   border-radius: 30px;
 }
+
 .top-fv__text {
   font-family: "'Lexend', sans-serif";
   font-weight: 300;

@@ -18,6 +18,13 @@
 
 .top-fv__cover {
     position: relative;
+    @include mq(md) {
+        top: 237px;
+        left: 183px;
+        width: 1200px;
+        height: 500px;
+    }
+
     @include mq(sp) {
         top: 125px;
         left: 0px;
@@ -27,9 +34,6 @@
 }
 
 .top-fv__main img{
-    @include mq(md) {
-        
-    }
     border-radius: 30px;
 }
 
