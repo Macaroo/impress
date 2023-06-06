@@ -170,8 +170,9 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .header__logo {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 50px;
+    width: 290px;
     box-sizing: border-box;
   }
 }
@@ -186,8 +187,8 @@ select::-ms-expand {
 .header__nav {
   display: inline-block;
   position: absolute;
-  top: 37px;
-  left: 1174px;
+  top: 50px;
+  left: 1225px;
   bottom: 30px;
 }
 
@@ -413,6 +414,28 @@ select::-ms-expand {
   padding-bottom: 50px;
 }
 
+.header__contact-button-gray_pc {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  background: #BDBDBD;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+.header__contact-button-yellow_pc {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  background: #F6DC4F;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  opacity: 1;
+}
+
 .drawer__contact-button-white_sp {
   display: inline-block;
   top: 366px;
@@ -614,7 +637,8 @@ select::-ms-expand {
 
 @media screen and (min-width: 768px) {
   .top-fv {
-    background-image: url(../images/top_pc/top-fv_pc.png);
+    background-image: url(../images/top_pc/top_fv-pc.png);
+    background-position: top right;
     width: 1920px;
     height: 996px;
   }

@@ -32,8 +32,9 @@
 .header__logo {
     position: absolute;
     @include mq("pc") {
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: 50px;
+        width: 290px;
         box-sizing: border-box;
     }
 
@@ -50,8 +51,8 @@
 .header__nav {
     display: inline-block;
     position: absolute;
-    top: 37px;
-    left: 1174px;
+    top: 50px;
+    left: 1225px;
     bottom: 30px;
 }
 

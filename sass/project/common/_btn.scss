@@ -4,6 +4,28 @@
 // ================================================================
 // btn
 // ================================================================
+.header__contact-button-gray_pc {
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    background: $accent-color;
+    color: $white;
+    border: 1px solid $white;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.header__contact-button-yellow_pc {
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    background: $main-color;
+    color: $black;
+    border: 1px solid $white;
+    border-radius: 50px;
+    opacity: 1;
+}
+
 .drawer__contact-button-white_sp {
     display: inline-block;
     top: 366px;
@@ -27,8 +49,6 @@
     border-radius: 50px;
     opacity: 1;
 }
-
-
 
 .footer__contact-button-white_sp {
     display: inline-block;

@@ -6,7 +6,8 @@
 // ================================================================
 .top-fv {
     @include mq("pc") {
-        background-image: url(../images/top_pc/top-fv_pc.png);
+        background-image: url(../images/top_pc/top_fv-pc.png);
+        background-position: top right;
         width: 1920px;
         height: 996px;
     }
