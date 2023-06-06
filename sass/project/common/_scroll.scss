@@ -6,13 +6,24 @@
 // ================================================================
 .scroll {
     position: absolute;
-    top: 504px;
-    left: 290px;
-    width: 65px;
-    height: 65px;
     background-color: $main-color;
-    border-radius: 50px;
     overflow: hidden;
+
+    @include mq("pc") {
+        top: 901px;
+        left: 1650px;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+    }
+
+    @include mq("sp") {
+        top: 504px;
+        left: 290px;
+        width: 65px;
+        height: 65px;
+        border-radius: 50px;
+    }
 }
 
 @keyframes scroll {
@@ -36,10 +47,18 @@
     color: $white;
     line-height: 1;
     position: relative;
-    width: 2px;
-    height: 15px;
     background-color: $white;
     animation: scroll-down 2s ease-in infinite;
+
+    @include mq("pc") {
+        width: 4px;
+        height: 20px;
+    }
+
+    @include mq("sp") {
+        width: 2px;
+        height: 15px;
+    }
 }
 
 .scroll span::before {
@@ -58,10 +77,18 @@
 }
 
 .allow-down {
-    position: absolute;
-    top: 15px;
-    bottom: 15px;
-    left: 30px;
+
+    @include mq("pc") {
+        top: 60px;
+        bottom: 15px;
+        left: 70px;
+    }
+
+    @include mq("sp") {
+        top: 15px;
+        bottom: 15px;
+        left: 30px;
+    }
 }
 
 .allow-right {
