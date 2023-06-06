@@ -761,9 +761,9 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .top-fv__sub-image {
-    top: 750px;
-    left: 50px;
-    width: 590px;
+    top: 780px;
+    left: 70px;
+    width: 540px;
     height: 80px;
   }
 }
