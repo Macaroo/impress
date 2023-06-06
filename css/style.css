@@ -787,11 +787,23 @@ select::-ms-expand {
 }
 
 .top-about {
-  background-image: url(../images/top_sp/top-about_sp.png);
   background-color: #F1F1F1;
-  background-position: center;
-  width: 375px;
-  height: 523px;
+}
+@media screen and (min-width: 768px) {
+  .top-about {
+    background-image: url(../images/top_pc/top-about_pc.png);
+    background-position: center left;
+    width: 100%;
+    height: 862px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-about {
+    background-image: url(../images/top_sp/top-about_sp.png);
+    background-position: center;
+    width: 375px;
+    height: 523px;
+  }
 }
 
 .top-about__title {
