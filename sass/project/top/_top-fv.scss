@@ -5,11 +5,13 @@
 // top-fv
 // ================================================================
 .top-fv {
-    @include mq(md) {
+    @include mq("pc") {
         background-image: url(../images/top_pc/top-fv_pc.png);
+        width: 1920px;
+        height: 996px;
     }
 
-    @include mq(sp) {
+    @include mq("sp") {
         background-image: url(../images/top_sp/top-fv_sp.png);
         width: 375px;
         height: 570px;
@@ -18,14 +20,14 @@
 
 .top-fv__cover {
     position: relative;
-    @include mq(md) {
+    @include mq("pc") {
         top: 237px;
         left: 183px;
         width: 1200px;
         height: 500px;
     }
 
-    @include mq(sp) {
+    @include mq("sp") {
         top: 125px;
         left: 0px;
         width: 355px;
@@ -45,7 +47,7 @@
     font-weight: $regular;
     color: $main-color;
     position: absolute;
-    @include mq(sp) {
+    @include mq("sp") {
         font-size: 85px;
         top: 335px;
         left: 10px;
@@ -59,7 +61,7 @@
     font-weight: $regular;
     color: $main-color;
     position: absolute;
-    @include mq(sp) {
+    @include mq("sp") {
         font-size: 18px;
         top: 445px;
         left: 160px;
@@ -70,7 +72,7 @@
 
 .top-fv__sub-image {
     position: absolute;
-    @include mq(sp) {
+    @include mq("sp") {
         top: 385px;
         left: 1px;
         width: 265px;

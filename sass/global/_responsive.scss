@@ -1,23 +1,31 @@
 @use "sass:math";
 //ブレイクポイントの値
 $breakpoints: (
-  sp: 375,
-  md: 768,
-  lg: 1024,
-  xl: 1920,
-);
 
-//メディアクエリー
-$mediaqueries: (
-  sp: "screen and (min-width: #{map-get($breakpoints,'sp')}px)",
-  md: "screen and (min-width: #{map-get($breakpoints,'md')}px)",
-  lg: "screen and (min-width: #{map-get($breakpoints,'lg')}px)",
-  xl: "screen and (min-width: #{map-get($breakpoints,'xl')}px)",
-);
+  "sp-s": 'screen and (max-width: 567px)',
+  "sp-m": 'screen and (min-width: 568px) and (max-width: 767px)',
+  "tb": "screen and (min-width: 768px) and (max-width: 1024px)",
+  "pc-m": "screen and (min-width: 1025px) and (max-width: 1840px)",
+  "pc-l": "screen and (min-width: 1841px)",
 
-// ブレイクポイントの設定
-@mixin mq($mediaquery: md) {
-  @media #{map-get($mediaqueries, $mediaquery)} {
+  // モバイル（スマホ＆タブレット）の表示
+  "sp": "screen and (max-width: 767px)",
+  // PC（PC）の表示
+  "pc": "screen and (min-width: 768px)"
+
+  ) !default;
+
+// ================================================================
+// mixin
+// ================================================================
+// ----------------------------------------------------------------
+//メディアクエリ用mixin
+// ----------------------------------------------------------------
+@mixin mq($breakpoint: pc) {
+  //map-get(マップ型変数, キー)で値を取得
+  @media #{map-get($breakpoints, $breakpoint)} {
+    //この中をカスタムできる
     @content;
   }
 }
+

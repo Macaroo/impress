@@ -14,10 +14,10 @@
     height: 70px;
 }
 .header__inner {
-    @include mq(sp) {
+    @include mq("sp") {
         max-width: 100%;
     }
-    @include mq(md) {
+    @include mq("pc") {
         padding-right: 89px;
     }
 }
@@ -31,13 +31,13 @@
 // ----------------------------------------
 .header__logo {
     position: absolute;
-    @include mq(md) {
+    @include mq("pc") {
         margin-top: 15px;
         margin-left: 50px;
         box-sizing: border-box;
     }
 
-    @include mq(sp) {
+    @include mq("sp") {
         top: 15px;
         left: 25px;
         width: 180px;
@@ -79,7 +79,7 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
-    @include mq(md) {
+    @include mq("pc") {
         display: none;
     }
 }
@@ -140,7 +140,7 @@
     background-color: $main-color;
     width: 375px;
     height: 570px;
-    @include mq(md) {
+    @include mq("pc") {
         display: none;
     }
 }
@@ -150,13 +150,13 @@
 // ----------------------------------------
 .drawer__logo {
     position: absolute;
-    @include mq(md) {
+    @include mq("pc") {
         margin-top: 15px;
         margin-left: 50px;
         box-sizing: border-box;
     }
 
-    @include mq(sp) {
+    @include mq("sp") {
         top: 15px;
         left: 25px;
         width: 180px;

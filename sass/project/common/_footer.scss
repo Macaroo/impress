@@ -6,14 +6,14 @@
 // ================================================================
 .footer {
     text-align: center;
-    @include mq(sp) {
+    @include mq("sp") {
         padding-top: 50px;
         padding-bottom: 50px;
         width: 376px;
         height: 653px;
     }
 
-    @include mq(md) {
+    @include mq("pc") {
     padding-top: 120px;
     padding-bottom: 120px;
     }
@@ -24,13 +24,13 @@
 // ================================================================
 .footer__logo {
     position: relative;
-    @include mq(md) {
+    @include mq("pc") {
         margin-top: 15px;
         margin-left: 50px;
         box-sizing: border-box;
     }
 
-    @include mq(sp) {
+    @include mq("sp") {
         left: 90px;
         width: 180px;
     }
@@ -40,7 +40,7 @@
 // フッターナビ
 // ================================================================
 .footer__nav {
-    @include mq(sp) {
+    @include mq("sp") {
         position: relative;
         top: 43px;
     }
