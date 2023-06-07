@@ -831,13 +831,15 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .top-about__text {
     padding-top: 214px;
-    padding-left: 134px;
+    padding-left: 457px;
+    font-size: 48px;
   }
 }
 @media screen and (max-width: 767px) {
   .top-about__text {
     padding-top: 10px;
     padding-left: 20px;
+    font-size: 24px;
   }
 }
 
@@ -846,7 +848,6 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .top-about__sub {
-    width: 746px;
     padding-top: 53px;
     padding-bottom: 407px;
     font-size: 20px;

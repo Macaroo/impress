@@ -44,12 +44,14 @@
 
     @include mq("pc") {
         padding-top: 214px;
-        padding-left: 134px;
+        padding-left: 457px;
+        font-size: 48px;
     }
 
     @include mq("sp") {
         padding-top: 10px;
         padding-left: 20px;
+        font-size: 24px;
     }
 }
 
@@ -57,7 +59,6 @@
     font-family: $base-font;
 
     @include mq("pc") {
-        width: 746px;
         padding-top: 53px;
         padding-bottom: 407px;
         font-size: 20px;
