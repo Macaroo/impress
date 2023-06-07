@@ -5,117 +5,152 @@
 // top-news
 // ================================================================
 .top-news {
-    background-image: url(../images/top_sp/top-news_bg-sp.png);
-    width: 375px;
-    height: 900px;
+
+    @include mq("pc") {
+        background-color: $background-color;
+        width: 1920px;
+        height: 1053px;
+    }
+
+    @include mq("sp") {
+        background-image: url(../images/top_sp/top-news_bg-sp.png);
+        width: 375px;
+        height: 900px;
+    }
 }
 
 .top-news__inner {
     background-color: $white;
     position: absolute;
-    top: 2575px;
-    left: 20px;
-    width: 335px;
-    height: 825px;
-    border-radius: 30px;
+    @include mq("sp") {
+        top: 2575px;
+        left: 20px;
+        width: 335px;
+        height: 825px;
+        border-radius: 30px;
+    }
 }
 
 .top-news__title {
     color: $main-color;
     font-family: $second-font;
-    padding-top: 63px;
-    padding-left: 10px;
-    font-size: 13px;
+    @include mq("sp") {
+        padding-top: 63px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
 }
 
 .top-news__link {
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
+    @include mq("sp") {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
 }
 
 .top-news__btn-1 {
     position: absolute;
-    top: 95px;
-    left: 10px;
-    width: 100px;
-    height: 40px;
     background: $main-color;
     border: 1px solid $main-color;
     color: $white;
     border-radius: 50px;
+    @include mq("sp") {
+        top: 95px;
+        left: 10px;
+        width: 100px;
+        height: 40px;
+    }
 }
 
 .top-news__btn-2 {
     position: absolute;
-    top: 95px;
-    left: 120px;
-    width: 100px;
-    height: 40px;
     background: $white;
     border: 1px solid $main-color;
     color: $black;
     border-radius: 50px;
     text-align: center;
+    @include mq("sp") {
+        top: 95px;
+        left: 120px;
+        width: 100px;
+        height: 40px;
+    }
 }
 
 .top-news__btn-3 {
     position: absolute;
-    top: 95px;
-    left: 225px;
-    width: 100px;
-    height: 40px;
     background: $white;
     border: 1px solid $main-color;
     color: $black;
     border-radius: 50px;
     text-align: center;
+    @include mq("sp") {
+        top: 95px;
+        left: 225px;
+        width: 100px;
+        height: 40px;
+    }
 }
 
 .top-news__link::after {
     content: "";
     position: absolute;
-    top: 160px;
-    left: 10px;
-    width: 315px;
-    height: 2px;
     color: $line-color;
+    @include mq("sp") {
+        top: 160px;
+        left: 10px;
+        width: 315px;
+        height: 2px;
+    }
 }
 
 .top-news__list {
-    width: 315px;
-    height: 599px;
-    margin-bottom: 60px;
+    @include mq("sp") {
+        width: 315px;
+        height: 599px;
+        margin-bottom: 60px;
+    }
 }
 
 .top-news__item:first-child {
-    padding-top: 25px;
+    @include mq("sp") {
+        padding-top: 25px;
+    }
 }
 
 .top-news__item-inner {
     display: flex;
-    padding-top: 20px;
-    padding-left: 20px;
+    @include mq("sp") {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
 }
 
 .top-news__item-date {
     color: $accent-color;
-    font-size: 15px;
-    padding-right: 5px;
+    @include mq("sp") {
+        font-size: 15px;
+        padding-right: 5px;
+    }
 }
 
 .top-news__item-text {
-    padding-left: 20px;
-    padding-top: 15px;
-    font-size: 16px;
     font-family: $base-font;
+    @include mq("sp") {
+        padding-left: 20px;
+        padding-top: 15px;
+        font-size: 16px;
+    }
 }
 
 .top-news__item-text::after {
     content: "";
     display: block;
-    width: 315px;
-    height: 2px;
     color: $line-color;
+    @include mq("sp") {
+        width: 315px;
+        height: 2px;
+    }
 }

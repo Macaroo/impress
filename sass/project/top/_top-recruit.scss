@@ -6,69 +6,144 @@
 // ================================================================
 .top-recruit {
     background-color: $background-color;
-    width: 375px;
-    height: 1300px;
+
+    @include mq("pc") {
+        width: 1920px;
+        height: 1369px;
+    }
+    @include mq("sp") {
+        width: 375px;
+        height: 1300px;
+    }
 }
 
 .top-recruit__circle {
     background-color: $main-color;
     border-radius: 50%;
     position: absolute;
-    top: 3480px;
-    left: 38px;
-    width: 300px;
-    height: 300px;
+
+    @include mq("pc") {
+        top: 5841px;
+        left: 10px;
+        width: 642px;
+        height: 642px;
+    }
+
+    @include mq("sp") {
+        top: 3480px;
+        left: 38px;
+        width: 300px;
+        height: 300px;
+    }
 }
 
 .top-recruit__text {
     text-align: center;
-    width: 173px;
-    padding-top: 115px;
-    padding-left: 55px;
-    line-height: 1;
     color: $white;
     font-family: $second-font;
-    font-size: 45px;
+
+    @include mq("pc") {
+        width: 338px;
+        padding-top: 261px;
+        padding-left: 147px;
+        line-height: 1;
+        font-size: 88px;
+    }
+
+    @include mq("sp") {
+        width: 173px;
+        padding-top: 115px;
+        padding-left: 55px;
+        line-height: 1;
+        font-size: 45px;
+    }
 }
 
 .top-recruit__title {
     color: $white;
     font-family: $second-font;
-    font-size: 13px;
-    padding-top: 15px;
-    padding-left: 55px;
+
+    @include mq("pc") {
+        font-size: 28px;
+        padding-top: 23px;
+        padding-left: 147px;
+    }
+
+    @include mq("sp") {
+        font-size: 13px;
+        padding-top: 15px;
+        padding-left: 55px;
+    }
 }
 
 .top-recruit__img {
     position: absolute;
-    top: 3815px;
-    left: 20px;
-    width: 375px;
-    height: 250px;
+
+    @include mq("pc") {
+        top: 5858px;
+        left: 730px;
+        width: 1190px;
+        height: 608px;
+    }
+
+    @include mq("sp") {
+        top: 3815px;
+        left: 20px;
+        width: 375px;
+        height: 250px;
+    }
 }
 
 .top-recruit__inner {
     background-color: $white;
     position: absolute;
-    top: 4105px;
-    left: 20px;
-    width: 335px;
-    height: 585px;
-    border-radius: 160px;
+
+    @include mq("pc") {
+        top: 6566px;
+        left: 183px;
+        width: 1554px;
+        height: 444px;
+        border-radius: 240px;
+    }
+
+    @include mq("sp") {
+        top: 4105px;
+        left: 20px;
+        width: 335px;
+        height: 585px;
+        border-radius: 160px;
+    }
 }
 
 .top-recruit__main-text {
     color: $black;
-    font-size: 20px;
     font-family: $base-font;
     text-align: center;
-    padding-top: 120px;
+
+    @include mq("pc") {
+        font-size: 38px;
+        padding-top: 91px;
+    }
+
+    @include mq("sp") {
+        font-size: 20px;
+        padding-top: 120px;
+    }
 }
 
 .top-recruit__sub {
-    padding-top: 50px;
-    padding-left: 30px;
-    width: 300px;
-    line-height: 1.5;
+
+    @include mq("pc") {
+        font-size: 16px;
+        padding-top: 51px;
+        padding-left: 227px;
+    }
+
+    @include mq("sp") {
+        padding-top: 50px;
+        padding-left: 30px;
+        width: 300px;
+        line-height: 1.5;
+    }
 }
 
