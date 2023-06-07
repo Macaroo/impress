@@ -43,7 +43,6 @@
     font-family: $base-font;
 
     @include mq("pc") {
-        padding-top: 214px;
         padding-left: 457px;
         font-size: 48px;
     }

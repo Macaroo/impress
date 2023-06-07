@@ -830,7 +830,6 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .top-about__text {
-    padding-top: 214px;
     padding-left: 457px;
     font-size: 48px;
   }
@@ -867,39 +866,89 @@ select::-ms-expand {
 
 .top-vision__cover {
   background: transparent linear-gradient(112deg, #F6DC4F 0%, #FBE87F 100%);
-  width: 375px;
-  height: 160px;
 }
-.top-vision__cover img {
-  position: absolute;
-  top: 1140px;
-  left: 20px;
-  width: 355px;
-  height: 180px;
+@media screen and (min-width: 768px) {
+  .top-vision__cover {
+    width: 1920px;
+    height: 386px;
+  }
+  .top-vision__cover img {
+    position: absolute;
+    top: 2108px;
+    left: 370px;
+    width: 1550px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-vision__cover {
+    width: 375px;
+    height: 160px;
+  }
+  .top-vision__cover img {
+    position: absolute;
+    top: 1140px;
+    left: 20px;
+    width: 355px;
+    height: 180px;
+  }
 }
 
 .top-vision__title {
   color: #F6DC4F;
   font-family: "'Lexend', sans-serif";
-  padding-top: 114px;
-  padding-left: 20px;
-  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .top-vision__title {
+    padding-top: 381px;
+    padding-left: 183px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-vision__title {
+    padding-top: 114px;
+    padding-left: 20px;
+    font-size: 13px;
+  }
 }
 
 .top-vision__text {
   font-family: "'Noto Sans JP', sans-serif";
-  padding-top: 10px;
-  padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .top-vision__text {
+    padding-top: 131px;
+    padding-left: 187px;
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-vision__text {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+  }
 }
 
 .top-vision__sub {
   font-family: "'Noto Sans JP', sans-serif";
-  width: 328px;
-  padding-top: 50px;
-  padding-left: 20px;
   font-size: 16px;
   text-align: left;
-  line-height: 1.55;
+}
+@media screen and (min-width: 768px) {
+  .top-vision__sub {
+    padding-top: 51px;
+    padding-left: 505px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-vision__sub {
+    width: 328px;
+    padding-top: 50px;
+    padding-left: 20px;
+    line-height: 1.55;
+  }
 }
 
 .top-service {

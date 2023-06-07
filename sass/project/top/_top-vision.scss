@@ -9,38 +9,81 @@
 
 .top-vision__cover{
     background: transparent linear-gradient(112deg, #F6DC4F 0%, #FBE87F 100%);
-    width: 375px;
-    height: 160px;
 
-    img{
-        position: absolute;
-        top: 1140px;
-        left: 20px;
-        width: 355px;
-        height: 180px;
+    @include mq("pc") {
+        width: 1920px;
+        height: 386px;
+
+        img {
+            position: absolute;
+            top: 2108px;
+            left: 370px;
+            width: 1550px;
+            height: 500px;
+        }
+    }
+
+    @include mq("sp") {
+        width: 375px;
+        height: 160px;
+
+        img{
+            position: absolute;
+            top: 1140px;
+            left: 20px;
+            width: 355px;
+            height: 180px;
+        }
     }
 }
 
 .top-vision__title {
     color: $main-color;
     font-family: $second-font;
-    padding-top: 114px;
-    padding-left: 20px;
-    font-size: 13px;
+
+    @include mq("pc") {
+        padding-top: 381px;
+        padding-left: 183px;
+        font-size: 28px;
+    }
+
+    @include mq("sp") {
+        padding-top: 114px;
+        padding-left: 20px;
+        font-size: 13px;
+    }
 }
 
 .top-vision__text {
     font-family: $base-font;
-    padding-top: 10px;
-    padding-left: 20px;
+
+    @include mq("pc") {
+        padding-top: 131px;
+        padding-left: 187px;
+        font-size: 38px;
+    }
+
+    @include mq("sp") {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 24px;
+    }
 }
 
 .top-vision__sub {
     font-family: $base-font;
-    width: 328px;
-    padding-top: 50px;
-    padding-left: 20px;
     font-size: 16px;
     text-align: left;
-    line-height: 1.55;
+
+    @include mq("pc") {
+        padding-top: 51px;
+        padding-left: 505px;
+    }
+
+    @include mq("sp") {
+        width: 328px;
+        padding-top: 50px;
+        padding-left: 20px;
+        line-height: 1.55;
+    }
 }
