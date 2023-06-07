@@ -809,25 +809,59 @@ select::-ms-expand {
 .top-about__title {
   color: #F6DC4F;
   font-family: "'Lexend', sans-serif";
-  padding-top: 53px;
-  padding-left: 20px;
-  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .top-about__title {
+    padding-top: 223px;
+    padding-left: 183px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-about__title {
+    padding-top: 53px;
+    padding-left: 20px;
+    font-size: 13px;
+  }
 }
 
 .top-about__text {
   font-family: "'Noto Sans JP', sans-serif";
-  padding-top: 10px;
-  padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .top-about__text {
+    padding-top: 214px;
+    padding-left: 134px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-about__text {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
 }
 
 .top-about__sub {
   font-family: "'Noto Sans JP', sans-serif";
-  width: 328px;
-  padding-top: 50px;
-  padding-left: 20px;
-  font-size: 16px;
-  text-align: left;
-  line-height: 1.55;
+}
+@media screen and (min-width: 768px) {
+  .top-about__sub {
+    width: 746px;
+    padding-top: 53px;
+    padding-bottom: 407px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-about__sub {
+    width: 328px;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.55;
+  }
 }
 
 .top-vision__cover {

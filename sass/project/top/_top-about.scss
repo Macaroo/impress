@@ -25,23 +25,51 @@
 .top-about__title {
     color: $main-color;
     font-family: $second-font;
-    padding-top: 53px;
-    padding-left: 20px;
-    font-size: 13px;
+
+    @include mq("pc") {
+        padding-top: 223px;
+        padding-left: 183px;
+        font-size: 28px;
+    }
+
+    @include mq("sp") {
+        padding-top: 53px;
+        padding-left: 20px;
+        font-size: 13px;
+    }
 }
 
 .top-about__text {
     font-family: $base-font;
-    padding-top: 10px;
-    padding-left: 20px;
+
+    @include mq("pc") {
+        padding-top: 214px;
+        padding-left: 134px;
+    }
+
+    @include mq("sp") {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
 }
 
 .top-about__sub {
     font-family: $base-font;
-    width: 328px;
-    padding-top: 50px;
-    padding-left: 20px;
-    font-size: 16px;
-    text-align: left;
-    line-height: 1.55;
+
+    @include mq("pc") {
+        width: 746px;
+        padding-top: 53px;
+        padding-bottom: 407px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    @include mq("sp"){
+        width: 328px;
+        padding-top: 50px;
+        padding-left: 20px;
+        font-size: 16px;
+        text-align: left;
+        line-height: 1.55;
+    }
 }
