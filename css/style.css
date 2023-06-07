@@ -864,6 +864,12 @@ select::-ms-expand {
   }
 }
 
+.top-vision {
+  background-color: #F1F1F1;
+  background-image: url(../images/top_pc/top-vision_pc-bg.png);
+  background-position: center left;
+}
+
 .top-vision__cover {
   background: transparent linear-gradient(112deg, #F6DC4F 0%, #FBE87F 100%);
 }
