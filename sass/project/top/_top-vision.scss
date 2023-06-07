@@ -5,9 +5,11 @@
 // top-vision
 // ================================================================
 .top-vision {
-    background-color: $background-color;
-    background-image: url(../images/top_pc/top-vision_pc-bg.png);
-    background-position: center left;
+    @include mq("pc") {
+        background-color: $background-color;
+        background-image: url(../images/top_pc/top-vision_pc-bg.png);
+        background-position: center left;
+    }
 }
 
 .top-vision__cover{
