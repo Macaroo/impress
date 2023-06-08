@@ -371,8 +371,17 @@ select::-ms-expand {
   }
 }
 
-.footer__nav-items {
-  display: block;
+@media screen and (min-width: 768px) {
+  .footer__nav-items {
+    display: flex;
+    top: 108px;
+    padding-left: 904px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__nav-items {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -402,6 +411,12 @@ select::-ms-expand {
 
 .sns__inner {
   display: flex;
+}
+@media screen and (min-width: 768px) {
+  .sns__inner {
+    padding-top: 57px;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 767px) {
   .sns__inner {

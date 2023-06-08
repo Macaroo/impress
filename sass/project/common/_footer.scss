@@ -51,7 +51,16 @@
 }
 
 .footer__nav-items {
-    display: block;
+
+    @include mq("pc") {
+        display: flex;
+        top: 108px;
+        padding-left: 904px;
+    }
+
+    @include mq("sp") {
+        display: block;
+    }
 }
 
 .footer__nav-item {
@@ -82,6 +91,12 @@
 // ================================================================
 .sns__inner {
     display: flex;
+
+    @include mq("pc") {
+        padding-top: 57px;
+        align-items: center;
+    }
+
     @include mq("sp") {
         margin: 5px 105px 95px 113px;
     }
