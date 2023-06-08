@@ -127,52 +127,62 @@
 
 .top-vision__scroll span {
     position: absolute;
-    top: 1694px;
-    left: 290px;
-    width: 65px;
-    height: 65px;
     background-color: $main-color;
     border-radius: 50px;
     overflow: hidden;
+    @include mq("sp") {
+        top: 1694px;
+        left: 290px;
+        width: 65px;
+        height: 65px;
+    }
 }
 
 .top-vision__scroll-text,
 .top-service__scroll-text {
-    padding-top: 80px;
-    padding-left: 132px;
-    padding-bottom: 62px;
-    font-size: 16px;
     font-family: $second-font;
+    @include mq("sp") {
+        padding-top: 80px;
+        padding-left: 132px;
+        padding-bottom: 62px;
+        font-size: 16px;
+    }
 }
 
 .top-service__scroll span {
     position: absolute;
-    top: 2410px;
-    left: 290px;
-    width: 65px;
-    height: 65px;
     background-color: $main-color;
     border-radius: 50px;
     overflow: hidden;
+    @include mq("sp") {
+        top: 2410px;
+        left: 290px;
+        width: 65px;
+        height: 65px;
+    }
 }
 
 .top-recruit__scroll-text {
     position: absolute;
-    top: 4530px;
-    left: 83px;
-    width: 224px;
-    height: 65px;
-    font-size: 16px;
     font-family: $second-font;
+    @include mq("sp") {
+        top: 4530px;
+        left: 83px;
+        width: 224px;
+        height: 65px;
+        font-size: 16px;
+    }
 }
 
 .top-recruit__scroll span {
     position: absolute;
-    top: 4509px;
-    left: 242px;
-    width: 65px;
-    height: 65px;
     background-color: $main-color;
     border-radius: 50px;
     overflow: hidden;
+    @include mq("sp") {
+        top: 4509px;
+        left: 242px;
+        width: 65px;
+        height: 65px;
+    }
 }
