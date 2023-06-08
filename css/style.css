@@ -386,6 +386,7 @@ select::-ms-expand {
 
 @media screen and (max-width: 767px) {
   .footer__nav-item {
+    margin-right: 45px;
     margin-bottom: 35px;
   }
 }
@@ -415,7 +416,8 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .sns__inner {
     padding-top: 57px;
-    align-items: center;
+    padding-left: 885px;
+    padding-bottom: 145px;
   }
 }
 @media screen and (max-width: 767px) {

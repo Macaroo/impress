@@ -65,6 +65,7 @@
 
 .footer__nav-item {
     @include mq("sp") {
+        margin-right: 45px;
         margin-bottom: 35px;
     }
 }
@@ -94,7 +95,8 @@
 
     @include mq("pc") {
         padding-top: 57px;
-        align-items: center;
+        padding-left: 885px;
+        padding-bottom: 145px;
     }
 
     @include mq("sp") {
