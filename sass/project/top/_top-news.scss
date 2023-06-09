@@ -59,6 +59,10 @@
 
 .top-news__link {
     display: flex;
+
+    @include mq("pc") {
+    }
+
     @include mq("sp") {
         padding-top: 20px;
         padding-bottom: 30px;
@@ -165,10 +169,17 @@
 
 .top-news__item-text {
     font-family: $base-font;
+    font-size: 16px;
+    font-weight: $bold;
+
+    @include mq("pc") {
+        padding-left: 585px;
+        padding-top: 43px;
+    }
+
     @include mq("sp") {
         padding-left: 20px;
         padding-top: 15px;
-        font-size: 16px;
     }
 }
 

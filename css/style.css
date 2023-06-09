@@ -1311,12 +1311,19 @@ select::-ms-expand {
 
 .top-news__item-text {
   font-family: "'Noto Sans JP', sans-serif";
+  font-size: 16px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .top-news__item-text {
+    padding-left: 585px;
+    padding-top: 43px;
+  }
 }
 @media screen and (max-width: 767px) {
   .top-news__item-text {
     padding-left: 20px;
     padding-top: 15px;
-    font-size: 16px;
   }
 }
 
