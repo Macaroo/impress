@@ -22,6 +22,15 @@
 .top-news__inner {
     background-color: $white;
     position: absolute;
+
+    @include mq("pc") {
+        top: 4688px;
+        left: 183px;
+        width: 1554px;
+        height: 953px;
+        border-radius: 50px;
+    }
+
     @include mq("sp") {
         top: 2575px;
         left: 20px;
@@ -34,6 +43,13 @@
 .top-news__title {
     color: $main-color;
     font-family: $second-font;
+
+    @include mq("pc") {
+        padding-top: 106px;
+        padding-left: 293px;
+        font-size: 28px;
+    }
+
     @include mq("sp") {
         padding-top: 63px;
         padding-left: 10px;
@@ -56,6 +72,11 @@
     border: 1px solid $main-color;
     color: $white;
     border-radius: 50px;
+
+    @include mq("pc") {
+        margin-right: 30px;
+    }
+
     @include mq("sp") {
         top: 95px;
         left: 10px;
@@ -122,6 +143,12 @@
 
 .top-news__item-inner {
     display: flex;
+
+    @include mq("pc") {
+        padding-top: 45px;
+        padding-left: 187px;
+    }
+
     @include mq("sp") {
         padding-top: 20px;
         padding-left: 20px;
