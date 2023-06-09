@@ -660,6 +660,14 @@ select::-ms-expand {
   border-radius: 50px;
   overflow: hidden;
 }
+@media screen and (min-width: 768px) {
+  .top-vision__scroll span {
+    top: 2961px;
+    left: 1452px;
+    width: 98px;
+    height: 98px;
+  }
+}
 @media screen and (max-width: 767px) {
   .top-vision__scroll span {
     top: 1694px;
@@ -672,6 +680,15 @@ select::-ms-expand {
 .top-vision__scroll-text,
 .top-service__scroll-text {
   font-family: "'Lexend', sans-serif";
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .top-vision__scroll-text,
+  .top-service__scroll-text {
+    padding-top: 44px;
+    padding-left: 1293px;
+    padding-bottom: 38px;
+  }
 }
 @media screen and (max-width: 767px) {
   .top-vision__scroll-text,
@@ -679,7 +696,6 @@ select::-ms-expand {
     padding-top: 80px;
     padding-left: 132px;
     padding-bottom: 62px;
-    font-size: 16px;
   }
 }
 
@@ -688,6 +704,14 @@ select::-ms-expand {
   background-color: #F6DC4F;
   border-radius: 50px;
   overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .top-service__scroll span {
+    top: 4390px;
+    left: 1452px;
+    width: 98px;
+    height: 98px;
+  }
 }
 @media screen and (max-width: 767px) {
   .top-service__scroll span {
@@ -698,9 +722,57 @@ select::-ms-expand {
   }
 }
 
+.top-news__scroll-text {
+  position: absolute;
+  font-family: "'Lexend', sans-serif";
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .top-news__scroll-text {
+    top: 5487px;
+    left: 1313px;
+    width: 106px;
+    height: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-news__scroll-text {
+    display: none;
+  }
+}
+
+.top-news__scroll span {
+  position: absolute;
+  background-color: #F6DC4F;
+  border-radius: 50px;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .top-news__scroll span {
+    top: 5443px;
+    left: 1452px;
+    width: 98px;
+    height: 98px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-news__scroll span {
+    display: none;
+  }
+}
+
 .top-recruit__scroll-text {
   position: absolute;
   font-family: "'Lexend', sans-serif";
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .top-recruit__scroll-text {
+    top: 6876px;
+    left: 1253px;
+    width: 106px;
+    height: 16px;
+  }
 }
 @media screen and (max-width: 767px) {
   .top-recruit__scroll-text {
@@ -708,7 +780,6 @@ select::-ms-expand {
     left: 83px;
     width: 224px;
     height: 65px;
-    font-size: 16px;
   }
 }
 
@@ -717,6 +788,14 @@ select::-ms-expand {
   background-color: #F6DC4F;
   border-radius: 50px;
   overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .top-recruit__scroll span {
+    top: 6832px;
+    left: 1412px;
+    width: 98px;
+    height: 98px;
+  }
 }
 @media screen and (max-width: 767px) {
   .top-recruit__scroll span {

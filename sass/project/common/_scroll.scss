@@ -130,6 +130,14 @@
     background-color: $main-color;
     border-radius: 50px;
     overflow: hidden;
+
+    @include mq("pc") {
+        top: 2961px;
+        left: 1452px;
+        width: 98px;
+        height: 98px;
+    }
+
     @include mq("sp") {
         top: 1694px;
         left: 290px;
@@ -141,11 +149,18 @@
 .top-vision__scroll-text,
 .top-service__scroll-text {
     font-family: $second-font;
+    font-size: 16px;
+
+    @include mq("pc") {
+        padding-top: 44px;
+        padding-left: 1293px;
+        padding-bottom: 38px;
+    }
+
     @include mq("sp") {
         padding-top: 80px;
         padding-left: 132px;
         padding-bottom: 62px;
-        font-size: 16px;
     }
 }
 
@@ -154,6 +169,14 @@
     background-color: $main-color;
     border-radius: 50px;
     overflow: hidden;
+
+    @include mq("pc") {
+        top: 4390px;
+        left: 1452px;
+        width: 98px;
+        height: 98px;
+    }
+
     @include mq("sp") {
         top: 2410px;
         left: 290px;
@@ -162,15 +185,58 @@
     }
 }
 
+.top-news__scroll-text {
+    position: absolute;
+    font-family: $second-font;
+    font-size: 16px;
+
+    @include mq("pc") {
+        top: 5487px;
+        left: 1313px;
+        width: 106px;
+        height: 16px;
+    }
+
+    @include mq("sp") {
+        display: none;
+    }
+}
+
+.top-news__scroll span {
+    position: absolute;
+    background-color: $main-color;
+    border-radius: 50px;
+    overflow: hidden;
+
+    @include mq("pc") {
+        top: 5443px;
+        left: 1452px;
+        width: 98px;
+        height: 98px;
+    }
+
+    @include mq("sp") {
+        display: none;
+    }
+}
+
 .top-recruit__scroll-text {
     position: absolute;
     font-family: $second-font;
+    font-size: 16px;
+
+    @include mq("pc") {
+        top: 6876px;
+        left: 1253px;
+        width: 106px;
+        height: 16px;
+    }
+
     @include mq("sp") {
         top: 4530px;
         left: 83px;
         width: 224px;
         height: 65px;
-        font-size: 16px;
     }
 }
 
@@ -179,6 +245,14 @@
     background-color: $main-color;
     border-radius: 50px;
     overflow: hidden;
+
+    @include mq("pc") {
+        top: 6832px;
+        left: 1412px;
+        width: 98px;
+        height: 98px;
+    }
+
     @include mq("sp") {
         top: 4509px;
         left: 242px;
