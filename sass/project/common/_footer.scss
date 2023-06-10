@@ -64,6 +64,11 @@
 }
 
 .footer__nav-item {
+
+    @include mq("pc") {
+        margin-left: 43px;
+    }
+
     @include mq("sp") {
         margin-right: 45px;
         margin-bottom: 35px;

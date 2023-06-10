@@ -384,6 +384,11 @@ select::-ms-expand {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footer__nav-item {
+    margin-left: 43px;
+  }
+}
 @media screen and (max-width: 767px) {
   .footer__nav-item {
     margin-right: 45px;
@@ -634,8 +639,8 @@ select::-ms-expand {
   height: 0;
   border-style: solid;
   border-color: transparent;
-  border-width: 0.375px 0.64952px;
-  border-left-color: #000;
+  border-top: 10px;
+  border-bottom: 10px;
   border-right: 0;
 }
 
