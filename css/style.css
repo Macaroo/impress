@@ -455,6 +455,7 @@ select::-ms-expand {
 }
 
 .footer__copyright {
+  font-size: 12px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
