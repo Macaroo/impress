@@ -14,7 +14,7 @@
 
     @include mq("sp") {
         background-image: url(../images/top_sp/top-news_bg-sp.png);
-        width: 375px;
+        width: 100%;
         height: 900px;
     }
 }
