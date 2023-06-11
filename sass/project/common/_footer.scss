@@ -88,6 +88,18 @@
     color: $black;
 }
 
+.footer__nav-item_sp {
+    @include mq("pc") {
+        display: none;
+    }
+}
+
+.footer__nav-item_pc {
+    @include mq("sp") {
+        display: none;
+    }
+}
+
 .footer__contact-button-yellow_sp .footer__nav-text {
     color: $white;
 }
