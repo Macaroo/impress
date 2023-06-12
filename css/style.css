@@ -1253,9 +1253,9 @@ select::-ms-expand {
 
 @media screen and (min-width: 768px) {
   .top-news {
-    background-color: #F1F1F1;
+    background-image: url(../images/top_pc/top-news_bg-pc.png);
     width: 1920px;
-    height: 1053px;
+    height: 1200px;
   }
 }
 @media screen and (max-width: 767px) {
