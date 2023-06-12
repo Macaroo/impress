@@ -391,7 +391,6 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .footer__nav-item {
-    margin-right: 45px;
     margin-bottom: 35px;
   }
 }
@@ -460,11 +459,14 @@ select::-ms-expand {
 .footer__copyright::before {
   content: "";
   display: block;
-  width: 5276px;
-  height: 1px;
-  color: #BDBDBD;
 }
-
+@media screen and (max-width: 767px) {
+  .footer__copyright::before {
+    width: 5276px;
+    height: 1px;
+    color: #BDBDBD;
+  }
+}
 .footer__copyright {
   font-size: 12px;
   padding-top: 50px;
@@ -569,6 +571,7 @@ select::-ms-expand {
   border: 1px solid #F6DC4F;
   border-radius: 50px;
   opacity: 1;
+  margin-right: 40px;
 }
 
 .scroll {

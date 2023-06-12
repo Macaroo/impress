@@ -70,7 +70,6 @@
     }
 
     @include mq("sp") {
-        margin-right: 45px;
         margin-bottom: 35px;
     }
 }
@@ -141,9 +140,16 @@
 .footer__copyright::before {
     content: "";
     display: block;
-    width: 5276px;
-    height: 1px;
-    color: $accent-color;
+
+    @include mq("sp") {
+        width: 5276px;
+        height: 1px;
+        color: $accent-color;
+    }
+
+    @include mq("pc") {
+        
+    }
 }
 
 .footer__copyright {
