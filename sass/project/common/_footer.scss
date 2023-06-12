@@ -140,15 +140,19 @@
 .footer__copyright::before {
     content: "";
     display: block;
-
-    @include mq("sp") {
-        width: 5276px;
-        height: 1px;
-        color: $accent-color;
-    }
+    background-color: $accent-color;
 
     @include mq("pc") {
-        
+        width: 1180px;
+        height: 1px;
+        margin-left: 370px;
+    }
+
+    @include mq("sp") {
+        width: 335px;
+        height: 1px;
+        margin-left: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -156,4 +160,8 @@
     font-size: 12px;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    @include mq("pc") {
+        margin-top: 75px;
+    }
 }

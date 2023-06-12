@@ -140,12 +140,13 @@
 .top-news__link::after {
     content: "";
     position: absolute;
-    color: $line-color;
+    background-color: $line-color;
+
     @include mq("sp") {
         top: 160px;
         left: 10px;
         width: 315px;
-        height: 2px;
+        height: 1px;
     }
 }
 
@@ -209,9 +210,17 @@
 .top-news__item-text::after {
     content: "";
     display: block;
-    color: $line-color;
+    position: absolute;
+    background-color: $line-color;
+
+    @include mq("pc") {
+        left: 187px;
+        width: 1180px;
+        height: 1px;
+    }
+
     @include mq("sp") {
         width: 315px;
-        height: 2px;
+        height: 1px;
     }
 }
