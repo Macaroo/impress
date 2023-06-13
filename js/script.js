@@ -1,3 +1,5 @@
+const { gsap } = require("gsap");
+
 //ハンバーガーメニュー
 $(function () {
     $(".js-hamburger, .js-drawer").click(function () {
@@ -19,5 +21,12 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
     },
 });
+
+// gsap
+window.addEventListener('load',function(){
+    const openingTL = gsap.timeline();
+    openingTL
+    .to('.top-service__circle',{scale:1,duration:1.5})
+})
 
 });
