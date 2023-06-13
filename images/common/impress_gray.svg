@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="959" height="250" viewBox="0 0 959 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f1f1;
+        font-size: 250px;
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="impress" class="cls-1" transform="translate(0 193)"><tspan x="0" y="0">impress</tspan></text>
+</svg>

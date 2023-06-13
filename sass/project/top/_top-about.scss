@@ -11,7 +11,7 @@
         background-image: url(../images/top_pc/top-about_pc.png);
         background-position: center left;
         width: 100%;
-        height: 862px;
+        height: 955px;
     }
 
     @include mq("sp") {
@@ -72,4 +72,19 @@
         text-align: left;
         line-height: 1.55;
     }
+}
+
+.top-about__marquee-text-wrapper {
+    position: absolute;
+
+    @include mq("pc") {
+        top: 1700px;
+        left: 0px;
+        width: 959px;
+        height: 250px;
+    }
+}
+
+.top-about__marquee-text {
+    display: flex;
 }
