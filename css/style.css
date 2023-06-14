@@ -803,6 +803,12 @@ select::-ms-expand {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .allow-black {
+    padding-top: 71px;
+  }
+}
+
 .allow-black img {
   position: absolute;
 }
@@ -1483,6 +1489,17 @@ select::-ms-expand {
     width: 315px;
     height: 599px;
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-news__item {
+    width: 1180px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .top-news__item {
+    width: 315px;
   }
 }
 

@@ -158,6 +158,17 @@
     }
 }
 
+.top-news__item {
+
+    @include mq("pc") {
+        width: 1180px;
+    }
+
+    @include mq("sp") {
+        width: 315px;
+    }
+}
+
 .top-news__item:first-child {
     @include mq("sp") {
         padding-top: 25px;

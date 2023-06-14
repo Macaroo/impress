@@ -205,6 +205,17 @@
     }
 }
 
+.allow-black {
+
+    @include mq("pc") {
+        
+    }
+
+    @include mq("sp") {
+        padding-top: 71px;
+    }
+}
+
 .allow-black img{
     position: absolute;
 
