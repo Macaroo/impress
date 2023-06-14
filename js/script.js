@@ -1,4 +1,3 @@
-const { gsap } = require("gsap");
 
 //ハンバーガーメニュー
 $(function () {
@@ -27,6 +26,24 @@ window.addEventListener('load',function(){
     const openingTL = gsap.timeline();
     openingTL
     .to('.top-service__circle',{scale:1,duration:1.5})
+});
+
+gsap.to(".allow-down", {
+    y: 30,
+    repeat: -1,
+    duration:1.1
+});
+
+gsap.to(".allow-right img", {
+    x: 30,
+    repeat: -1,
+    duration:1.1
+});
+
+gsap.to(".allow-black img", {
+    x: 30,
+    repeat: -1,
+    duration:1.1
 })
 
 });
