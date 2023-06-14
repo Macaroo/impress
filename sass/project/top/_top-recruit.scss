@@ -21,6 +21,7 @@
     background-color: $main-color;
     border-radius: 50%;
     position: absolute;
+    transform: translate(0.50%) scale(.5);
 
     @include mq("pc") {
         top: 5841px;

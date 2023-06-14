@@ -26,6 +26,7 @@ window.addEventListener('load',function(){
     const openingTL = gsap.timeline();
     openingTL
     .to('.top-service__circle',{scale:1,duration:1.5})
+    .to('.top-recruit__circle',{scale:1,duration:1.5})
 });
 
 gsap.to(".allow-down", {
