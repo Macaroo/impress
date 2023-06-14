@@ -29,6 +29,24 @@ window.addEventListener('load',function(){
     .to('.top-recruit__circle',{scale:1,duration:1.5})
 });
 
+document.addEventListener('DOMContentLoaded',function(){
+    gsap.to('.top-service__text',{clipPath:'inset(100% 0 0 0)',ease:'none',scrollTrigger:{
+        trigger:'.top-service__text',
+        start:'bottom 50px',
+        end:'top 50px',
+        scrub:true,
+    }});
+});
+
+document.addEventListener('DOMContentLoaded',function(){
+    gsap.to('.top-service__sub-image',{clipPath:'inset(100% 0 0 0)',ease:'none',scrollTrigger:{
+        trigger:'.top-service__sub-image',
+        start:'bottom 50px',
+        end:'top 50px',
+        scrub:true,
+    }});
+});
+
 gsap.to(".allow-down", {
     y: 30,
     repeat: -1,
