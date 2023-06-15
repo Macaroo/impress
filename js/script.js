@@ -8,7 +8,7 @@ $(function () {
 });
 
 //スライダー
-const swiper = new Swiper('.swiper', {
+var swiper = new Swiper('.swiper', {
     slidesPerView: "auto",
     loop: true,
     autoplay: {
@@ -18,6 +18,7 @@ const swiper = new Swiper('.swiper', {
 
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 });
 
