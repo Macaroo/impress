@@ -5,6 +5,7 @@
 // top-fv
 // ================================================================
 .top-fv {
+
     @include mq("pc") {
         background-image: url(../images/top_pc/top_fv-pc.png);
         background-position: top right;
@@ -21,6 +22,7 @@
 
 .top-fv__cover {
     position: relative;
+
     @include mq("pc") {
         top: 237px;
         left: 183px;
@@ -41,7 +43,6 @@
 }
 
 .top-fv__inner {
-    
 }
 
 .top-fv__text {
@@ -65,6 +66,9 @@
         width: 265px;
         height: 85px;
     }
+}
+
+.top-fv__sub {
 }
 
 .top-fv__sub-text {
