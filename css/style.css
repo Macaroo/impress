@@ -1279,7 +1279,7 @@ select::-ms-expand {
     font-size: 120px;
     line-height: 1.35;
     width: 940px;
-    padding-top: 100px;
+    padding-top: 200px;
   }
 }
 @media screen and (max-width: 767px) {

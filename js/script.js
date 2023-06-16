@@ -36,8 +36,8 @@ window.addEventListener('load',function(){
 document.addEventListener('DOMContentLoaded',function(){
     gsap.to('.top-service__text',{y:-200,ease:'none',scrollTrigger:{
         trigger:'.top-service__text',
-        start:'bottom',
-        end:'top',
+        start:'bottom 50%',
+        end:'top 50%',
         scrub:true,
     }});
 });
@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded',function(){
 document.addEventListener('DOMContentLoaded',function(){
     gsap.to('.top-service__sub-image',{y:-200,ease:'none',scrollTrigger:{
         trigger:'.top-service__sub-image',
-        start:'bottom',
-        end:'top',
+        start:'bottom  50%',
+        end:'top 50%',
         scrub:true,
     }});
 });
