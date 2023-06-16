@@ -160,14 +160,14 @@ select::-ms-expand {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .header__inner {
-    max-width: 100%;
-  }
-}
 @media screen and (min-width: 768px) {
   .header__inner {
     padding-right: 89px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__inner {
+    max-width: 100%;
   }
 }
 
@@ -198,7 +198,7 @@ select::-ms-expand {
   display: inline-block;
   position: absolute;
   top: 50px;
-  left: 1225px;
+  left: 1174px;
   bottom: 30px;
 }
 

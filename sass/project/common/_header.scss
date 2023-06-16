@@ -22,11 +22,13 @@
     }
 }
 .header__inner {
-    @include mq("sp") {
-        max-width: 100%;
-    }
+
     @include mq("pc") {
         padding-right: 89px;
+    }
+
+    @include mq("sp") {
+        max-width: 100%;
     }
 }
 
@@ -60,7 +62,7 @@
     display: inline-block;
     position: absolute;
     top: 50px;
-    left: 1225px;
+    left: 1174px;
     bottom: 30px;
 }
 
