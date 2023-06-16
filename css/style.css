@@ -1114,6 +1114,8 @@ select::-ms-expand {
     background-image: url(../images/top_pc/top-vision_pc-bg.png);
     background-position: center left;
     background-repeat: no-repeat;
+    width: 1920px;
+    height: 1201px;
   }
 }
 
