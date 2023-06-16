@@ -7,6 +7,8 @@ $(function () {
     $(".js-drawer").fadeToggle();
 });
 
+});
+
 //スライダー
 var swiper = new Swiper('.swiper', {
     slidesPerView: "auto",
@@ -15,14 +17,11 @@ var swiper = new Swiper('.swiper', {
         delay: 5000,
         disableOnInteraction: false,
     },
-    speed: 1000,
 
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
-});
-
 });
 
 // gsap
