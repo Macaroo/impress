@@ -23,6 +23,8 @@ var swiper = new Swiper('.swiper', {
     },
 });
 
+});
+
 // gsap
 window.addEventListener('load',function(){
     const openingTL = gsap.timeline();
@@ -65,6 +67,4 @@ gsap.to(".allow-black img", {
     x: 30,
     repeat: -1,
     duration:1.1
-})
-
 });
