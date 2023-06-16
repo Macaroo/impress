@@ -17,6 +17,7 @@ var swiper = new Swiper('.swiper', {
         delay: 5000,
         disableOnInteraction: false,
     },
+    speed: 1000,
 
     pagination: {
         el: '.swiper-pagination',
