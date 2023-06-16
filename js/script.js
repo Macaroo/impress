@@ -34,19 +34,19 @@ window.addEventListener('load',function(){
 });
 
 document.addEventListener('DOMContentLoaded',function(){
-    gsap.to('.top-service__text',{clipPath:'inset(100% 0 0 0)',ease:'none',scrollTrigger:{
+    gsap.to('.top-service__text',{x:200,ease:'none',scrollTrigger:{
         trigger:'.top-service__text',
-        start:'bottom 50px',
-        end:'top 50px',
+        start:'bottom 20%',
+        end:'top 30%',
         scrub:true,
     }});
 });
 
 document.addEventListener('DOMContentLoaded',function(){
-    gsap.to('.top-service__sub-image',{clipPath:'inset(100% 0 0 0)',ease:'none',scrollTrigger:{
+    gsap.to('.top-service__sub-image',{autoAlpha:0,ease:'none',scrollTrigger:{
         trigger:'.top-service__sub-image',
-        start:'bottom 50px',
-        end:'top 50px',
+        start:'bottom 20%',
+        end:'top 30%',
         scrub:true,
     }});
 });
