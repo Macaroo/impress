@@ -1578,6 +1578,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .top-news__item-text::after {
     width: 315px;
+    left: 10px;
     height: 1px;
   }
 }

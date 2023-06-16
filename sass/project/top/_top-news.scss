@@ -232,6 +232,7 @@
 
     @include mq("sp") {
         width: 315px;
+        left: 10px;
         height: 1px;
     }
 }
