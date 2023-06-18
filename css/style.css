@@ -547,6 +547,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .top-news__item-btn {
+    margin-top: 45px;
     margin-right: 70px;
   }
 }
@@ -1535,6 +1536,8 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .top-news__item-date {
     font-size: 16px;
+    margin-top: 45px;
+    margin-left: 106px;
     margin-right: 40px;
   }
 }

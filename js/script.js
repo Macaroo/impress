@@ -33,24 +33,6 @@ window.addEventListener('load',function(){
     .to('.top-recruit__circle',{scale:1,duration:1.5})
 });
 
-document.addEventListener('DOMContentLoaded',function(){
-    gsap.to('.top-service__text',{y:-200,ease:'none',scrollTrigger:{
-        trigger:'.top-service__text',
-        start:'bottom 50%',
-        end:'top 50%',
-        scrub:true,
-    }});
-});
-
-document.addEventListener('DOMContentLoaded',function(){
-    gsap.to('.top-service__sub-image',{y:-200,ease:'none',scrollTrigger:{
-        trigger:'.top-service__sub-image',
-        start:'bottom  50%',
-        end:'top 50%',
-        scrub:true,
-    }});
-});
-
 gsap.to(".allow-down", {
     y: 30,
     repeat: -1,
