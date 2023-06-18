@@ -142,6 +142,13 @@
     position: absolute;
     background-color: $line-color;
 
+    @include mq("pc") {
+        top: 196px;
+        left: 187px;;
+        width: 1180px;
+        height: 1px;
+    }
+
     @include mq("sp") {
         top: 160px;
         left: 10px;

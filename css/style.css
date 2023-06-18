@@ -1480,6 +1480,14 @@ select::-ms-expand {
   position: absolute;
   background-color: #C4C3BF;
 }
+@media screen and (min-width: 768px) {
+  .top-news__link::after {
+    top: 196px;
+    left: 187px;
+    width: 1180px;
+    height: 1px;
+  }
+}
 @media screen and (max-width: 767px) {
   .top-news__link::after {
     top: 160px;
