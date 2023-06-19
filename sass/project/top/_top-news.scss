@@ -19,7 +19,7 @@
     }
 }
 
-.top-news__inner {
+.top-news__wrapper {
     background-color: $white;
     position: absolute;
 
@@ -40,7 +40,7 @@
     }
 }
 
-.top-news__wrapper {
+.top-news__inner {
     @include mq("pc") {
         display: flex;
     }
@@ -165,6 +165,12 @@
 }
 
 .top-news__list {
+
+    @include mq("pc") {
+        width: 1180px;
+        height: 499px;
+    }
+
     @include mq("sp") {
         width: 315px;
         height: 599px;
@@ -186,6 +192,15 @@
 .top-news__item:first-child {
     @include mq("sp") {
         padding-top: 25px;
+    }
+}
+
+.top-news__item-wrapper {
+    @include mq("pc") {
+        display: flex;
+        width: 1180px;
+        height: 97px;
+        padding-bottom: 36px;
     }
 }
 
@@ -225,7 +240,8 @@
     font-weight: $bold;
 
     @include mq("pc") {
-        padding-left: 585px;
+        padding-top: 90px;
+        padding-left: 5px;
     }
 
     @include mq("sp") {
