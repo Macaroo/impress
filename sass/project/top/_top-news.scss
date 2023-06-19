@@ -190,6 +190,11 @@
 }
 
 .top-news__item:first-child {
+
+    @include mq("pc") {
+        padding-top: 43px;
+    }
+
     @include mq("sp") {
         padding-top: 25px;
     }
@@ -208,7 +213,7 @@
     display: flex;
 
     @include mq("pc") {
-        padding-top: 45px;
+        padding-bottom: 36px;
         padding-left: 187px;
     }
 
@@ -240,7 +245,7 @@
     font-weight: $bold;
 
     @include mq("pc") {
-        padding-top: 90px;
+        padding-top: 60px;
         padding-left: 5px;
     }
 
