@@ -87,7 +87,7 @@
     border-radius: 50px;
 
     @include mq("pc") {
-        left: 800px;
+        left: 610px;
         width: 200px;
         height: 50px;
     }
@@ -109,7 +109,7 @@
     text-align: center;
 
     @include mq("pc") {
-        left: 1030px;
+        left: 850px;
         width: 200px;
         height: 50px;
     }
@@ -131,7 +131,7 @@
     text-align: center;
 
     @include mq("pc") {
-        left: 1260px;
+        left: 1090px;
         width: 200px;
         height: 50px;
     }

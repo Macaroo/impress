@@ -10,7 +10,6 @@
     @include mq("pc") {
         width: 1920px;
         height: 502px;
-        padding-top: 100px;
         padding-bottom: 100px;
     }
 
@@ -19,6 +18,12 @@
         padding-bottom: 50px;
         width: 100%;
         height: 653px;
+    }
+}
+
+.footer__content-container {
+    @include mq("pc") {
+        padding-top: 100px;
     }
 }
 
@@ -44,6 +49,7 @@
 // フッターナビ
 // ================================================================
 .footer__nav {
+
     @include mq("sp") {
         position: relative;
         top: 43px;
