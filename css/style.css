@@ -1368,6 +1368,12 @@ select::-ms-expand {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .top-news__wrapper {
+    display: flex;
+  }
+}
+
 .top-news__title {
   color: #F6DC4F;
   font-family: "'Lexend', sans-serif";
@@ -1392,6 +1398,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .top-news__link {
+    padding-top: 100px;
     padding-left: 617px;
     text-align: center;
   }

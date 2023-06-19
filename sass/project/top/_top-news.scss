@@ -40,6 +40,12 @@
     }
 }
 
+.top-news__wrapper {
+    @include mq("pc") {
+        display: flex;
+    }
+}
+
 .top-news__title {
     color: $main-color;
     font-family: $second-font;
@@ -61,6 +67,7 @@
     display: flex;
 
     @include mq("pc") {
+        padding-top: 100px;
         padding-left: 617px;
         text-align: center;
     }
