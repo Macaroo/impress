@@ -139,8 +139,9 @@
     font-size: 16px;
 
     @include mq("pc") {
+        padding-top: 55px;
         padding-left: 1293px;
-        padding-bottom: 40px;
+        padding-bottom: 100px;
     }
 
     @include mq("sp") {
@@ -177,8 +178,8 @@
     font-size: 16px;
 
     @include mq("pc") {
-        padding-top: 44px;
-        left: 1110px;
+        padding-top: 125px;
+        left: 1130px;
         width: 106px;
         height: 16px;
     }
@@ -198,6 +199,7 @@
         left: 1300px;
         width: 98px;
         height: 98px;
+        bottom: 125px;
     }
 
     @include mq("sp") {
