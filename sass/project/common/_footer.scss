@@ -23,6 +23,7 @@
 
 .footer__content-container {
     @include mq("pc") {
+        display: flex;
         padding-top: 100px;
     }
 }
@@ -33,10 +34,9 @@
 .footer__logo {
     position: relative;
     @include mq("pc") {
-        margin-top: 100px;
-        margin-left: 370px;
+        left: 370px;
         width: 290px;
-        box-sizing: border-box;
+        height: 65px;
     }
 
     @include mq("sp") {
@@ -50,6 +50,9 @@
 // ================================================================
 .footer__nav {
 
+    @include mq("pc") {
+    }
+
     @include mq("sp") {
         position: relative;
         top: 43px;
@@ -60,8 +63,8 @@
 
     @include mq("pc") {
         display: flex;
-        top: 108px;
-        padding-left: 904px;
+        padding-left: 600px;
+        padding-bottom: 57px;
     }
 
     @include mq("sp") {
@@ -116,7 +119,6 @@
     display: flex;
 
     @include mq("pc") {
-        padding-top: 57px;
         padding-left: 885px;
         padding-bottom: 145px;
     }

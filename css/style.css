@@ -347,6 +347,7 @@ select::-ms-expand {
 
 @media screen and (min-width: 768px) {
   .footer__content-container {
+    display: flex;
     padding-top: 100px;
   }
 }
@@ -356,10 +357,9 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .footer__logo {
-    margin-top: 100px;
-    margin-left: 370px;
+    left: 370px;
     width: 290px;
-    box-sizing: border-box;
+    height: 65px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -379,8 +379,8 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .footer__nav-items {
     display: flex;
-    top: 108px;
-    padding-left: 904px;
+    padding-left: 600px;
+    padding-bottom: 57px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -436,7 +436,6 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .sns__inner {
-    padding-top: 57px;
     padding-left: 885px;
     padding-bottom: 145px;
   }
