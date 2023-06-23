@@ -888,7 +888,7 @@ select::-ms-expand {
   .top-fv {
     background-image: url(../images/top_pc/top_fv-pc.png);
     background-position: top right;
-    width: 100%;
+    width: 1920px;
     height: 996px;
   }
 }
@@ -1001,7 +1001,7 @@ select::-ms-expand {
   .top-about {
     background-image: url(../images/top_pc/top-about_pc.png);
     background-position: center left;
-    width: 100%;
+    width: 1920px;
     height: 955px;
   }
 }
