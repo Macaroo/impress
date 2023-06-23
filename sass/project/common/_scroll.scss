@@ -223,13 +223,13 @@
     position: relative;
 
     @include mq("pc") {
-        left: 1475px;
+        left: 1250px;
         width: 26px;
         height: 12px;
     }
 
     @include mq("sp") {
-        left: 311px;
+        left: 270px;
         width: 26px;
         height: 12px;
     }

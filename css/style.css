@@ -829,14 +829,14 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .allow-black img {
-    left: 1475px;
+    left: 1250px;
     width: 26px;
     height: 12px;
   }
 }
 @media screen and (max-width: 767px) {
   .allow-black img {
-    left: 311px;
+    left: 270px;
     width: 26px;
     height: 12px;
   }
