@@ -820,7 +820,8 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .allow-black {
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
   }
 }
 
@@ -1636,6 +1637,12 @@ select::-ms-expand {
     width: 315px;
     left: 10px;
     height: 1px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-news__item-inner-sp {
+    display: flex;
   }
 }
 

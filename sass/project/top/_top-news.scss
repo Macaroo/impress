@@ -275,3 +275,9 @@
         height: 1px;
     }
 }
+
+.top-news__item-inner-sp {
+    @include mq("sp") {
+        display: flex;
+    }
+}
