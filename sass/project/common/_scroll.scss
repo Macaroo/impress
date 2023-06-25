@@ -212,6 +212,7 @@
 
     @include mq("pc") {
         padding-top: 50px;
+        left: 45px;
     }
 
     @include mq("sp") {
