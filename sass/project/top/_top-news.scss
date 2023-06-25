@@ -277,6 +277,11 @@
 }
 
 .top-news__item-inner-sp {
+
+    @include mq("pc") {
+        width: 852px;
+    }
+
     @include mq("sp") {
         display: flex;
     }

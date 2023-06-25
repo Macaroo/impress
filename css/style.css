@@ -1640,6 +1640,11 @@ select::-ms-expand {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .top-news__item-inner-sp {
+    width: 852px;
+  }
+}
 @media screen and (max-width: 767px) {
   .top-news__item-inner-sp {
     display: flex;
