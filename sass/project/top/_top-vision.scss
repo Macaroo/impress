@@ -6,7 +6,7 @@
 // ================================================================
 .top-vision {
     @include mq("pc") {
-        background-color: $background-color;
+        background-color: $sub-background-color;
         background-image: url(../images/top_pc/top-vision_pc-bg.png);
         background-position: center left;
         background-repeat: no-repeat;

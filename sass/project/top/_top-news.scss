@@ -7,13 +7,19 @@
 .top-news {
 
     @include mq("pc") {
-        background-image: url(../images/top_pc/top-news_bg-pc.png);
+        background: linear-gradient(180deg, $background-color 0%, $background-color 60%, $sub-background-color 50%, $sub-background-color 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 1920px;
         height: 1200px;
     }
 
     @include mq("sp") {
-        background-image: url(../images/top_sp/top-news_bg-sp.png);
+        background: linear-gradient(180deg, $background-color 0%, $background-color 60%, $sub-background-color 50%, $sub-background-color 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 900px;
     }

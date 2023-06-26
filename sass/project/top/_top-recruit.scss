@@ -5,7 +5,7 @@
 // top-recruit
 // ================================================================
 .top-recruit {
-    background-color: $background-color;
+    background-color: $sub-background-color;
 
     @include mq("pc") {
         width: 1920px;
