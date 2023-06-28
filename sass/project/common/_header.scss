@@ -13,6 +13,7 @@
 
     @include mq("pc") {
         width: 1920px;
+        max-width: 100%;
         height: 80px;
     }
 
@@ -24,6 +25,7 @@
 .header__inner {
 
     @include mq("pc") {
+        max-width: 100%;
         padding-right: 89px;
     }
 
