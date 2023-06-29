@@ -629,7 +629,6 @@ select::-ms-expand {
   line-height: 1;
   position: relative;
   background-color: #fff;
-  animation: scroll-down 2s ease-in infinite;
 }
 @media screen and (min-width: 768px) {
   .scroll span {
@@ -659,6 +658,9 @@ select::-ms-expand {
   box-sizing: border-box;
 }
 
+.allow-down {
+  transition: 0.5s;
+}
 @media screen and (min-width: 768px) {
   .allow-down {
     top: 60px;
@@ -674,22 +676,13 @@ select::-ms-expand {
   }
 }
 
-@keyframes allow-down {
-  0% {
-    transform: translateY(-100%);
-  }
-  33% {
-    transform: translateY(0);
-  }
-  66% {
-    transform: translateY(50%);
-  }
-  100% {
-    transform: translateY(100%);
-  }
+.allow-down:hover {
+  transform: rotateX(360deg);
 }
+
 .allow-right img {
   position: absolute;
+  transition: 0.5s;
 }
 @media screen and (min-width: 768px) {
   .allow-right img {
@@ -705,6 +698,11 @@ select::-ms-expand {
     width: 65px;
     height: 12px;
   }
+}
+
+.allow-right img:hover {
+  transform: translate(20px, 0);
+  transition: 2s;
 }
 
 .top-vision__scroll span {
@@ -832,6 +830,7 @@ select::-ms-expand {
 
 .allow-black img {
   position: relative;
+  transition: 0.3s;
 }
 @media screen and (min-width: 768px) {
   .allow-black img {
@@ -846,6 +845,11 @@ select::-ms-expand {
     width: 26px;
     height: 12px;
   }
+}
+
+.allow-black img:hover {
+  transform: translate(20px, 0);
+  transition: 2s;
 }
 
 .top-recruit__scroll-text {

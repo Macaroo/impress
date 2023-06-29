@@ -33,7 +33,6 @@
     line-height: 1;
     position: relative;
     background-color: $white;
-    animation: scroll-down 2s ease-in infinite;
 
     @include mq("pc") {
         width: 4px;
@@ -62,6 +61,7 @@
 }
 
 .allow-down {
+    transition: .5s;
 
     @include mq("pc") {
         top: 60px;
@@ -76,23 +76,13 @@
     }
 }
 
-@keyframes allow-down {
-    0% {
-    transform: translateY(-100%);
-    }
-    33% {
-    transform: translateY(0);
-    }
-    66% {
-    transform: translateY(50%);
-    }
-    100% {
-    transform: translateY(100%);
-    }
+.allow-down:hover {
+	transform: rotateX(360deg);
 }
 
 .allow-right img {
     position: absolute;
+    transition: .5s;
 
     @include mq("pc") {
         top: 42px;
@@ -106,6 +96,11 @@
         width: 65px;
         height: 12px;
     }
+}
+
+.allow-right img:hover {
+    transform: translate(20px,0);
+    transition: 2s;
 }
 
 .top-vision__scroll {
@@ -223,6 +218,7 @@
 
 .allow-black img{
     position: relative;
+    transition: .3s;
 
     @include mq("pc") {
         left: 1250px;
@@ -235,6 +231,11 @@
         width: 26px;
         height: 12px;
     }
+}
+
+.allow-black img:hover {
+    transform: translate(20px,0);
+    transition: 2s;
 }
 
 .top-recruit__scroll-text {
